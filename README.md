@@ -1,2 +1,2 @@
-# wenbo5565.github.io
+# Temporary repository for short notes on machine learning
 GitHub Pages
