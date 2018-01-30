@@ -255,17 +255,16 @@ This is part of my self-note on understanding the derivation of support vector m
 <p>This short note is based on the understanding of Prof. Hsuan-Tien Lin’s Video on Machine Learning Techniques</p>
 <p><strong>Motivation</strong></p>
 <center>
-<div class="figure">
-<img src="https://wenbo5565.github.io/img/svm/svm1.png" alt="Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques" style="width:60.0%" />
-<p class="caption">Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques</p>
-</div>
+<img src="https://wenbo5565.github.io/img/svm/svm1.png" alt="Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques" style="width:40.0%" /> Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques
 </center>
 <p>Given the three plots above, there are three classifiers all can separate the positive and negative case. If you can choose one from the three, which one do you want? I guess most of the people will choose the third one. At least I will choose the third one because it is robust to small perturbation of the data. (Think of a scenario that x,y axis represents people’s height and weight. It is highly possible that the data is noisy, say, sometimes you report your height as 184cm or 185cm. In this case a robust(stable) classifier will still make right prediction)</p>
 <p><strong>Formulate the Question in Plain English</strong></p>
 <p>To achieve such goal above, we have to define what is a good classifier. In SVM, we firstly define margin as the smallest distance between any point and the decision boundary. Then we could say a classifier is better than the other if the its margin is larger than the others’ (Intuitively it means all points can at least perturbate the margin without change in prediction). Another requirement is the usual one that all prediction must be correct. Therefore we can formulate a maximization problem as follows:</p>
-<p>max: margin </p>
-<p><strong>s.t.</strong> margin defined as minimum distance(sample point i, boundary line/hyperplane)</p>
-<p>every sample is correctly classified</p>
+<center>
+<strong>max</strong>: margin<br />
+<strong>s.t.</strong> margin defined as minimum distance(sample point i, boundary line/hyperplane)<br />
+every sample is correctly classified
+</center>
 <p><strong>Formulate/Translate the Question into Mathematics</strong></p>
 <p>In order to solve the optimization problem using mathematics, we have to firstly translate it into mathematics (modeling).</p>
 <p>Before that , we have to equip ourselves with some geometry knowledge.</p>
@@ -276,24 +275,24 @@ This is part of my self-note on understanding the derivation of support vector m
 </ul>
 <p>Given sample point is denoted <span class="math inline">\(x_{i}\)</span> and class is <span class="math inline">\(y_{i} \in \{-1,+1\}\)</span>, the above optimization problem can be translated as</p>
 <center>
-<p>max <span class="math inline">\(min_{i} \frac{1}{\|w\|} |w^{T}x_{i}+b|\)</span></p>
+max <span class="math inline">\(min_{i} \frac{1}{\|w\|} |w^{T}x_{i}+b|\)</span><br />
 s.t. <span class="math inline">\(y_{i}(w^{T}x_{i}+b)&gt;0\)</span>
 </center>
 <p>The above problem can be simplified (and equivalent)</p>
 <center>
-<p>max <span class="math inline">\(min_{i} \frac{1}{\|w\|} y_{i}(w^{T}x_{i}+b)\)</span></p>
+max <span class="math inline">\(min_{i} \frac{1}{\|w\|} y_{i}(w^{T}x_{i}+b)\)</span><br />
 s.t. <span class="math inline">\(y_{i}(w^{T}x_{i}+b)&gt;0\)</span>
 </center>
 <p>because if <span class="math inline">\(y_{i}(w^{T}x_{i}+b)&gt;0\)</span> holds, then <span class="math inline">\(y_{i}(w^{T}x_{i}+b)=|y_{i}(w^{T}x_{i}+b)|=|w^{T}x_{i}+b|\)</span> given <span class="math inline">\(y \in \{-1,1\}\)</span></p>
 <p><strong>Narrow our goal to Simplify the Question</strong></p>
 <p>The above maxmium minimum problem is still complicated. By taking a closer look at the problem, we can find if (<span class="math inline">\(w^{*},b^{*}\)</span>) is a solution, then (<span class="math inline">\(kw^{*},kb^{*}\)</span>) is also the solution. (i.e. satisfying all constraints and achieves the same optimal value for target function). Therefore, we narrow our goal that we are only interested in the solution making <span class="math inline">\(min_{i} (w^{T}x_{i}+b)=1\)</span>. To illustrate the logic, let’s say we assume (<span class="math inline">\(w^{*},b^{*}\)</span>) is an optimal solution making <span class="math inline">\(min_{i} (w^{T}x_{i}+b)=M\)</span>. By scaling <span class="math inline">\(w^{*},b^{*}\)</span> we can always have a new solution <span class="math inline">\(\frac{w^{*}}{M}, \frac{b^{*}}{M}\)</span> making <span class="math inline">\(min_{i} (w^{T}x_{i}+b)=1\)</span>. Therefore the narrowed version only explores that sort of solution space. And consequently the narrowed version can be much simplified as</p>
 <center>
-<p>max <span class="math inline">\(\frac{1}{\|w\|}\)</span></p>
+max <span class="math inline">\(\frac{1}{\|w\|}\)</span><br />
 s.t. min <span class="math inline">\(y_{i}(w^{T}x_{i}+b)=1\)</span>
 </center>
 <p>which is equivalent to</p>
 <center>
-<p>min <span class="math inline">\(\frac{1}{2}{w^{T}w}\)</span></p>
+min <span class="math inline">\(\frac{1}{2}{w^{T}w}\)</span><br />
 s.t. min <span class="math inline">\(y_{i}(w^{T}x_{i}+b)=1\)</span>
 </center>
 <p>after the following treatment (all of them preserve the equivalence)</p>
@@ -307,15 +306,13 @@ s.t. min <span class="math inline">\(y_{i}(w^{T}x_{i}+b)=1\)</span>
 <p><strong>Solving the Probelm by Quadratic Programming</strong></p>
 <p>Now current optimization problem after relaxation is stated as follows:</p>
 <center>
-<p>min <span class="math inline">\(\frac{1}{2}{w^{T}w}\)</span></p>
+min <span class="math inline">\(\frac{1}{2}{w^{T}w}\)</span><br />
 s.t. <span class="math inline">\(y_{i}(w^{T}x_{i}+b)&gt;=1\)</span>
 </center>
 <p>The above is a Quadratic Programming problem which can be easily solved with a QP solver.</p>
 <center>
-<div class="figure">
-<img src="https://wenbo5565.github.io/img/svm/svm2.png" alt="Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques" style="width:50.0%" />
-<p class="caption">Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques</p>
-</div>
+<img src="https://wenbo5565.github.io/img/svm/svm2.png" alt="Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques" style="width:40.0%" /><br />
+Figure is from Prof. Hsuan-Tien Lin’s Slides on ML Techniques
 </center>
 </article>
     <footer class="post-footer">

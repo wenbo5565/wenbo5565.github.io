@@ -19,8 +19,8 @@ This short note is based on the understanding of Prof. Hsuan-Tien Lin's Video on
 
 
 <center>
-![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](/img/svm/svm1.png){width=60%}
-
+![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](/img/svm/svm1.png){width=40%} 
+Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques
 </center>
 
 
@@ -28,17 +28,16 @@ Given the three plots above, there are three classifiers all can separate the po
 
 **Formulate the Question in Plain English**
 
-To achieve such goal above, we have to define what is a good classifier. In SVM, we firstly define margin as the smallest distance between any point and the decision boundary. Then we could say a classifier is better than the other if the its margin is larger than the others' (Intuitively it means all points can at least perturbate the margin without change in prediction). Another requirement is the usual one that all prediction must be correct. Therefore we can formulate a maximization problem as follows:
+To achieve such goal above, we have to define what is a good classifier. In SVM, we firstly define 
+margin as the smallest distance between any point and the decision boundary. Then we could say a classifier is better than the other if the its margin is larger than the others' (Intuitively it means all points can at least perturbate the margin without change in prediction). Another requirement is the usual one that all prediction must be correct. Therefore we can formulate a maximization problem as follows:
 
 
-
-\center max: margin \center
-
+<center>
+**max**: margin \
 **s.t.** 
-margin defined as minimum distance(sample point i, boundary line/hyperplane)
-
-every sample is correctly classified
-
+margin defined as minimum distance(sample point i, boundary line/hyperplane) \
+every sample is correctly classified 
+</center>
 
 
 **Formulate/Translate the Question into Mathematics**
@@ -56,16 +55,14 @@ Before that , we have to equip ourselves with some geometry knowledge.
 Given sample point is denoted $x_{i}$ and class is $y_{i} \in \{-1,+1\}$, the above optimization problem can be translated as
 
 <center>
-max $min_{i} \frac{1}{\|w\|} |w^{T}x_{i}+b|$
-
+max $min_{i} \frac{1}{\|w\|} |w^{T}x_{i}+b|$ \
 s.t. $y_{i}(w^{T}x_{i}+b)>0$
 </center>
 
 The above problem can be simplified (and equivalent)
 
 <center>
-max $min_{i} \frac{1}{\|w\|} y_{i}(w^{T}x_{i}+b)$
-
+max $min_{i} \frac{1}{\|w\|} y_{i}(w^{T}x_{i}+b)$ \
 s.t. $y_{i}(w^{T}x_{i}+b)>0$
 </center>
 
@@ -76,18 +73,14 @@ because if $y_{i}(w^{T}x_{i}+b)>0$ holds, then $y_{i}(w^{T}x_{i}+b)=|y_{i}(w^{T}
 The above maxmium minimum problem is still complicated. By taking a closer look at the problem, we can find if ($w^{*},b^{*}$) is a solution, then ($kw^{*},kb^{*}$) is also the solution. (i.e. satisfying all constraints and achieves the same optimal value for target function). Therefore, we narrow our goal that we are only interested in the solution making $min_{i} (w^{T}x_{i}+b)=1$. To illustrate the logic, let's say we assume ($w^{*},b^{*}$) is an optimal solution making $min_{i} (w^{T}x_{i}+b)=M$. By scaling $w^{*},b^{*}$ we can always have a new solution $\frac{w^{*}}{M}, \frac{b^{*}}{M}$ making $min_{i} (w^{T}x_{i}+b)=1$. Therefore the narrowed version only explores that sort of solution space. And consequently the narrowed version can be much simplified as
 
 <center>
-
-max $\frac{1}{\|w\|}$
-
+max $\frac{1}{\|w\|}$ \
 s.t. min $y_{i}(w^{T}x_{i}+b)=1$
 </center>
 
 which is equivalent to 
 
 <center>
-
-min $\frac{1}{2}{w^{T}w}$
-
+min $\frac{1}{2}{w^{T}w}$ \
 s.t. min $y_{i}(w^{T}x_{i}+b)=1$
 </center>
 
@@ -106,16 +99,14 @@ Unfortunately, the current optimization problem is still hard to solve (due to m
 Now current optimization problem after relaxation is stated as follows:
 
 <center>
-
-min $\frac{1}{2}{w^{T}w}$
-
+min $\frac{1}{2}{w^{T}w}$ \
 s.t. $y_{i}(w^{T}x_{i}+b)>=1$
 </center>
 
 The above is a Quadratic Programming problem which can be easily solved with a QP solver.
 
 <center>
-![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](/img/svm/svm2.png){width=50%}
-
+![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](/img/svm/svm2.png){width=40%} \
+Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques
 </center>
 
