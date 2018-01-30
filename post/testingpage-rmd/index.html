@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>testingpage.Rmd</title>
+
+  
+  
+
+
+
+
+
+  
+  <meta name="author" content="" />
+  <meta name="description" content="A Short Note on Support Vector Machine Wenbo 
+Introduction
+This is part of my self-note on understanding the derivation of support vector machine (SVM). This short note aims to answer the following question
+ What motivats the SVM How we formulate the motivation into an mathematical optimization problem How to simplify the original optimization problem and solve it by Quadratic Programming (QP)  This short note is based on the understanding of Prof." />
+
+  
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="testingpage.Rmd" />
+    <meta name="twitter:description" content="A Short Note on Support Vector Machine Wenbo 
+Introduction
+This is part of my self-note on understanding the derivation of support vector machine (SVM). This short note aims to answer the following question
+ What motivats the SVM How we formulate the motivation into an mathematical optimization problem How to simplify the original optimization problem and solve it by Quadratic Programming (QP)  This short note is based on the understanding of Prof." />
+    <meta name="twitter:image" content="/img/avatar.jpg" />
+  
+
+  
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="testingpage.Rmd" />
+  <meta property="og:description" content="A Short Note on Support Vector Machine Wenbo 
+Introduction
+This is part of my self-note on understanding the derivation of support vector machine (SVM). This short note aims to answer the following question
+ What motivats the SVM How we formulate the motivation into an mathematical optimization problem How to simplify the original optimization problem and solve it by Quadratic Programming (QP)  This short note is based on the understanding of Prof." />
+  <meta property="og:url" content="/post/testingpage-rmd/" />
+  <meta property="og:image" content="/img/avatar.jpg" />
+
+
+
+
+<meta name="generator" content="Hugo 0.31" />
+
+
+<link rel="canonical" href="/post/testingpage-rmd/" />
+<link rel="alternative" href="/index.xml" title="An Accidental Statistician" type="application/atom+xml" />
+
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+
+
+<meta name="robots" content="index,follow" />
+<meta name="referrer" content="origin-when-cross-origin" />
+<meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc" />
+<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587" />
+
+
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="An Accidental Statistician" />
+<meta name="msapplication-tooltip" content="An Accidental Statistician" />
+<meta name='msapplication-navbutton-color' content="#5fbf5e" />
+<meta name="msapplication-TileColor" content="#5fbf5e" />
+<meta name="msapplication-TileImage" content="/img/tile-image-windows.png" />
+<link rel="icon" href="/img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
+<link rel="icon" sizes="192x192" href="/img/touch-icon-android.png" />
+<link rel="apple-touch-icon" href="/img/touch-icon-apple.png" />
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5fbf5e" />
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/video.js/6.2.8/alt/video-js-cdn.min.css" />
+
+<link rel="stylesheet" href="/css/bundle.css" />
+
+
+  
+  <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdn.bootcss.com/video.js/6.2.8/ie8/videojs-ie8.min.js"></script>
+  <![endif]-->
+
+<!--[if lte IE 11]>
+    <script src="//cdn.bootcss.com/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+
+<script src="//cdn.bootcss.com/object-fit-images/3.2.3/ofi.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/smooth-scroll/12.1.4/js/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
+  <body>
+    
+    <div class="suspension">
+      <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
+      
+        
+        <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <img class="avatar" src="/img/avatar.jpg" alt="Avatar">
+  
+  <h2 class="title">An Accidental Statistician</h2>
+  
+  <p class="subtitle">~ Keep It Simple &amp; Stupid ~</p>
+  <button class="menu-toggle" type="button">
+    <span class="icon icon-menu"></span>
+  </button>
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+            
+            
+            
+              is-active
+            ">
+            <a href="/">Home</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="https://github.com/laozhu">Works</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="/tags/">Tags</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="/links/">Links</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="/about/">About</a>
+          </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list">
+
+      
+      <li class="social-item">
+        <a href="mailto:name@domain.com" title="Email"><span class="icon icon-email"></span></a>
+      </li>
+
+      
+      <li class="social-item">
+        <a href="//github.com/github_username" title="GitHub"><span class="icon icon-github"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="//twitter.com/twitter_username" title="Twitter"><span class="icon icon-twitter"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="//weibo.com/weibo_username" title="Weibo"><span class="icon icon-weibo"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="/img/qrcode.jpg" title="Wechat"><span class="icon icon-wechat"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="//www.linkedin.com/in/linkedin_username" title="Linkedin"><span class="icon icon-linkedin"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="/index.xml"><span class="icon icon-rss" title="RSS"></span></a>
+      </li>
+
+    </ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">testingpage.Rmd</h1>
+      <p class="post-meta">@ · Jan 30, 2018 · 4 min read</p>
+    </header>
+    <article class="post-content">
+
+<p><center></p>
+
+<h4 id="a-short-note-on-support-vector-machine">A Short Note on Support Vector Machine</h4>
+
+<h5 id="wenbo">Wenbo</h5>
+
+<p></center></p>
+
+<p><strong>Introduction</strong></p>
+
+<p>This is part of my self-note on understanding the derivation of support vector machine (SVM). This short note aims to answer the following question</p>
+
+<ul>
+<li>What motivats the SVM</li>
+<li>How we formulate the motivation into an mathematical optimization problem</li>
+<li>How to simplify the original optimization problem and solve it by Quadratic Programming (QP)</li>
+</ul>
+
+<p>This short note is based on the understanding of Prof. Hsuan-Tien Lin&rsquo;s Video on Machine Learning Techniques</p>
+
+<p><strong>Motivation</strong></p>
+
+<p><center>
+<img src="E:ProjectShort Notes on Machine LearningSVMimagessvmimg1.JPG" alt="Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques" />{width=60%}</p>
+
+<p></center></p>
+
+<p>Given the three plots above, there are three classifiers all can separate the positive and negative case. If you can choose one from the three, which one do you want? I guess most of the people will choose the third one. At least I will choose the third one because it is robust to small perturbation of the data. (Think of a scenario that x,y axis represents people&rsquo;s height and weight. It is highly possible that the data is noisy, say, sometimes you report your height as 184cm or 185cm. In this case a robust(stable) classifier will still make right prediction)</p>
+
+<p><strong>Formulate the Question in Plain English</strong></p>
+
+<p>To achieve such goal above, we have to define what is a good classifier. In SVM, we firstly define margin as the smallest distance between any point and the decision boundary. Then we could say a classifier is better than the other if the its margin is larger than the others&rsquo; (Intuitively it means all points can at least perturbate the margin without change in prediction). Another requirement is the usual one that all prediction must be correct. Therefore we can formulate a maximization problem as follows:</p>
+
+<p><center>
+<strong>max</strong>: margin</p>
+
+<p><strong>s.t.</strong>
+margin defined as minimum distance(sample point i, boundary line/hyperplane)</p>
+
+<p>every sample is correctly classified
+</center></p>
+
+<p><strong>Formulate/Translate the Question into Mathematics</strong></p>
+
+<p>In order to solve the optimization problem using mathematics, we have to firstly translate it into mathematics (modeling).</p>
+
+<p>Before that , we have to equip ourselves with some geometry knowledge.</p>
+
+<ul>
+<li>A hyper plane in $R^{n}$ can be expressed as (w,b) where $w^{T}x+b = 0$</li>
+<li>A line perpendicular to this plane can be expressed as $w^{T}$</li>
+<li>The distance between a point $x<em>{i}$ in $r^{n}$ and the hyperplane can be expressed as $\frac{1}{|w|} |w^{T}x</em>{i}+b|$</li>
+</ul>
+
+<p>Given sample point is denoted $x<em>{i}$ and class is $y</em>{i} \in {-1,+1}$, the above optimization problem can be translated as</p>
+
+<p><center>
+max $min<em>{i} \frac{1}{|w|} |w^{T}x</em>{i}+b|$</p>
+
+<p>s.t. $y<em>{i}(w^{T}x</em>{i}+b)&gt;0$
+</center></p>
+
+<p>The above problem can be simplified (and equivalent)</p>
+
+<p><center>
+max $min<em>{i} \frac{1}{|w|} y</em>{i}(w^{T}x_{i}+b)$</p>
+
+<p>s.t. $y<em>{i}(w^{T}x</em>{i}+b)&gt;0$
+</center></p>
+
+<p>because if $y<em>{i}(w^{T}x</em>{i}+b)&gt;0$ holds, then $y<em>{i}(w^{T}x</em>{i}+b)=|y<em>{i}(w^{T}x</em>{i}+b)|=|w^{T}x_{i}+b|$ given $y \in {-1,1}$</p>
+
+<p><strong>Narrow our goal to Simplify the Question</strong></p>
+
+<p>The above maxmium minimum problem is still complicated. By taking a closer look at the problem, we can find if ($w^{<em>},b^{</em>}$) is a solution, then ($kw^{<em>},kb^{</em>}$) is also the solution. (i.e. satisfying all constraints and achieves the same optimal value for target function). Therefore, we narrow our goal that we are only interested in the solution making $min<em>{i} (w^{T}x</em>{i}+b)=1$. To illustrate the logic, let&rsquo;s say we assume ($w^{<em>},b^{</em>}$) is an optimal solution making $min<em>{i} (w^{T}x</em>{i}+b)=M$. By scaling $w^{<em>},b^{</em>}$ we can always have a new solution $\frac{w^{<em>}}{M}, \frac{b^{</em>}}{M}$ making $min<em>{i} (w^{T}x</em>{i}+b)=1$. Therefore the narrowed version only explores that sort of solution space. And consequently the narrowed version can be much simplified as</p>
+
+<p><center></p>
+
+<p>max $\frac{1}{|w|}$</p>
+
+<p>s.t. min $y<em>{i}(w^{T}x</em>{i}+b)=1$
+</center></p>
+
+<p>which is equivalent to</p>
+
+<p><center></p>
+
+<p>min $\frac{1}{2}{w^{T}w}$</p>
+
+<p>s.t. min $y<em>{i}(w^{T}x</em>{i}+b)=1$
+</center></p>
+
+<p>after the following treatment (all of them preserve the equivalence)</p>
+
+<ul>
+<li>maximization becomes minimization reciprocal,</li>
+<li>adding $\frac{1}{2}$</li>
+<li>minimize $|w|$ is equivalent to minimize $|w|^{2}=w^{t}w$</li>
+</ul>
+
+<p><strong>Relaxation</strong></p>
+
+<p>Unfortunately, the current optimization problem is still hard to solve (due to minimization in constraints). We therefore have to relax the constraint (remove minimization) to $y<em>{i}(w^{T}x</em>{i}+b<em>{i}&gt;=1$. To illustrate the equivalence of this relaxation. Assume under the new relaxed constraint, we achieve a solution $w^{&lsquo;},b^{&rsquo;}$ and all $y</em>{i}(w^{T}x<em>{i}+b</em>{i}&gt;1$. By scaling invariance (illustrated above), we can easily get a new $(\frac{w^{&lsquo;}}{k},\frac{b^{&lsquo;}}{k})$ making a smaller $\frac{1}{2}{|w|}$. Therefore  $w^{&lsquo;},b^{&rsquo;}$ when all $y<em>{i}(w^{T}x</em>{i}+b<em>{i}&gt;1$ cannot be an optimal solution. There has to be a $y</em>{i}(w^{T}x<em>{i}+b</em>{i})=1$. Hence the relaxation is equivalent to the original problem.</p>
+
+<p><strong>Solving the Probelm by Quadratic Programming</strong></p>
+
+<p>Now current optimization problem after relaxation is stated as follows:</p>
+
+<p><center></p>
+
+<p>min $\frac{1}{2}{w^{T}w}$</p>
+
+<p>s.t. $y<em>{i}(w^{T}x</em>{i}+b)&gt;=1$
+</center></p>
+
+<p>The above is a Quadratic Programming problem which can be easily solved with a QP solver.</p>
+
+<p><center>
+<img src="E:ProjectShort Notes on Machine LearningSVMimagessvmimg2.JPG" alt="Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques" />{width=50%}</p>
+
+<p></center></p>
+</article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "disqus_shortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  <footer class="site-footer">
+  <p>© 2017-2018 An Accidental Statistician</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank">Nuo</a>.</p>
+  
+</footer>
+
+
+
+<script async src="//cdn.bootcss.com/video.js/6.2.8/alt/video.novtt.min.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    }
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+<script src="/js/bundle.js"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-XXXXXXXX-X', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+  </body>
+</html>
