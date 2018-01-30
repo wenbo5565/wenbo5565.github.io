@@ -19,7 +19,7 @@ This short note is based on the understanding of Prof. Hsuan-Tien Lin's Video on
 
 
 <center>
-![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](E:\\Project\\Short Notes on Machine Learning\\SVM\\images){width=60%}
+![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](/img/svm/svm1.png){width=60%}
 
 </center>
 
@@ -30,14 +30,16 @@ Given the three plots above, there are three classifiers all can separate the po
 
 To achieve such goal above, we have to define what is a good classifier. In SVM, we firstly define margin as the smallest distance between any point and the decision boundary. Then we could say a classifier is better than the other if the its margin is larger than the others' (Intuitively it means all points can at least perturbate the margin without change in prediction). Another requirement is the usual one that all prediction must be correct. Therefore we can formulate a maximization problem as follows:
 
-<center>
-**max**: margin
+
+
+\center max: margin \center
 
 **s.t.** 
 margin defined as minimum distance(sample point i, boundary line/hyperplane)
 
 every sample is correctly classified
-</center>
+
+
 
 **Formulate/Translate the Question into Mathematics**
 
@@ -113,7 +115,7 @@ s.t. $y_{i}(w^{T}x_{i}+b)>=1$
 The above is a Quadratic Programming problem which can be easily solved with a QP solver.
 
 <center>
-![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](E:\Project\Short Notes on Machine Learning\SVM\images\svmimg2.JPG){width=50%}
+![Figure is from Prof. Hsuan-Tien Lin's Slides on ML Techniques](/img/svm/svm2.png){width=50%}
 
 </center>
 
