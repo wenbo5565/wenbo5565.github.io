@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Convergent</title>
-    <link>https://wenbo5565.github.io/post/</link>
-    <description>Recent content in Posts on Convergent</description>
+    <title>Ml Notes on Convergent</title>
+    <link>https://wenbo5565.github.io/categories/ml-notes/</link>
+    <description>Recent content in Ml Notes on Convergent</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://wenbo5565.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wenbo5565.github.io/categories/ml-notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <guid>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine-part-2/</guid>
       <description>IntroductionIn A short note on support vector machine (part 1), we started from the motivation for SVM, formulated it as an optimization problem and ended by a QP solution of the optimizaiton problem. Taking from there, we will discuss the dual version of SVM. This post aims to answer the following question.
 What is the dual problem of the original SVM problem and why we care it.How do we derive the dual problem from the original one.</description>
-    </item>
-    
-    <item>
-      <title>A Short Note on Support Vector Machine (Part 1)</title>
-      <link>https://wenbo5565.github.io/post/2018-01-30-new-test-page/</link>
-      <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://wenbo5565.github.io/post/2018-01-30-new-test-page/</guid>
-      <description>Introduction
-This is part of my self-note on understanding the derivation of support vector machine (SVM). This short note aims to answer the following question
-What motivats the SVMHow we formulate the motivation into an mathematical optimization problemHow to simplify the original optimization problem and solve it by Quadratic Programming (QP)This short note is based on the understanding of Prof. Hsuan-Tien Lin’s Video on Machine Learning Techniques</description>
     </item>
     
   </channel>

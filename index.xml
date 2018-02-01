@@ -13,12 +13,13 @@
     
     
     <item>
-      <title>Influenced Readings</title>
-      <link>https://wenbo5565.github.io/influenced-readings/</link>
+      <title>Readings</title>
+      <link>https://wenbo5565.github.io/readings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://wenbo5565.github.io/influenced-readings/</guid>
-      <description>&amp;ldquo;If you hear a voice within you say &amp;lsquo;you cannot paint,&amp;rsquo; then by all means paint, and that voice will be silenced.&amp;rdquo; &amp;mdash; Vincent van Gogh
+      <guid>https://wenbo5565.github.io/readings/</guid>
+      <description>Qutes
+&amp;ldquo;If you hear a voice within you say &amp;lsquo;you cannot paint,&amp;rsquo; then by all means paint, and that voice will be silenced.&amp;rdquo; &amp;mdash; Vincent van Gogh
 &amp;ldquo;Whatever the path, conflict and failure are not the end of the world. I hope the willingess to take risks will remain even when fear of conflict or failure creeps in. If you fail at somehting, don&amp;rsquo;t walk away. When it feels impossibly difficult, take one small step and then another.</description>
     </item>
     
@@ -28,17 +29,26 @@
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>https://wenbo5565.github.io/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+      <description>Welcome to Convergent.
+This is a blog where I share my study notes and applied projects on machine learnine and data analysis.</description>
     </item>
     
     <item>
-      <title>A Short Note on Support Vector Machine</title>
-      <link>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine/</link>
+      <title>A Short Note on Support Vector Machine (Part 2)</title>
+      <link>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine-part-2/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine-part-2/</guid>
+      <description>IntroductionIn A short note on support vector machine (part 1), we started from the motivation for SVM, formulated it as an optimization problem and ended by a QP solution of the optimizaiton problem. Taking from there, we will discuss the dual version of SVM. This post aims to answer the following question.
+What is the dual problem of the original SVM problem and why we care it.How do we derive the dual problem from the original one.</description>
+    </item>
+    
+    <item>
+      <title>A Short Note on Support Vector Machine (Part 1)</title>
+      <link>https://wenbo5565.github.io/post/2018-01-30-new-test-page/</link>
       <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine/</guid>
+      <guid>https://wenbo5565.github.io/post/2018-01-30-new-test-page/</guid>
       <description>Introduction
 This is part of my self-note on understanding the derivation of support vector machine (SVM). This short note aims to answer the following question
 What motivats the SVMHow we formulate the motivation into an mathematical optimization problemHow to simplify the original optimization problem and solve it by Quadratic Programming (QP)This short note is based on the understanding of Prof. Hsuan-Tien Lin’s Video on Machine Learning Techniques</description>

@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wenbo5565.github.io/influenced-readings/</loc>
+    <loc>https://wenbo5565.github.io/readings/</loc>
   </url>
   
   <url>
@@ -12,7 +12,12 @@
   </url>
   
   <url>
-    <loc>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine/</loc>
+    <loc>https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine-part-2/</loc>
+    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wenbo5565.github.io/post/2018-01-30-new-test-page/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,8 +33,14 @@
   </url>
   
   <url>
+    <loc>https://wenbo5565.github.io/categories/ml-notes/</loc>
+    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wenbo5565.github.io/post/</loc>
-    <lastmod>2018-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-01-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

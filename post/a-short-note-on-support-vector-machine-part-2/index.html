@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+
+  
+  <title>A Short Note on Support Vector Machine (Part 2)</title>
+
+  
+  
+
+
+
+
+
+  
+  <meta name="author" content="Wenbo" />
+  <meta name="description" content="IntroductionIn A short note on support vector machine (part 1), we started from the motivation for SVM, formulated it as an optimization problem and ended by a QP solution of the optimizaiton problem. Taking from there, we will discuss the dual version of SVM. This post aims to answer the following question.
+What is the dual problem of the original SVM problem and why we care it.How do we derive the dual problem from the original one." />
+
+  
+  
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="A Short Note on Support Vector Machine (Part 2)" />
+    <meta name="twitter:description" content="IntroductionIn A short note on support vector machine (part 1), we started from the motivation for SVM, formulated it as an optimization problem and ended by a QP solution of the optimizaiton problem. Taking from there, we will discuss the dual version of SVM. This post aims to answer the following question.
+What is the dual problem of the original SVM problem and why we care it.How do we derive the dual problem from the original one." />
+    <meta name="twitter:image" content="https://wenbo5565.github.io/img/avatar.jpg" />
+  
+
+  
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="A Short Note on Support Vector Machine (Part 2)" />
+  <meta property="og:description" content="IntroductionIn A short note on support vector machine (part 1), we started from the motivation for SVM, formulated it as an optimization problem and ended by a QP solution of the optimizaiton problem. Taking from there, we will discuss the dual version of SVM. This post aims to answer the following question.
+What is the dual problem of the original SVM problem and why we care it.How do we derive the dual problem from the original one." />
+  <meta property="og:url" content="https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine-part-2/" />
+  <meta property="og:image" content="https://wenbo5565.github.io/img/avatar.jpg" />
+
+
+
+
+<meta name="generator" content="Hugo 0.31" />
+
+
+<link rel="canonical" href="https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine-part-2/" />
+<link rel="alternative" href="https://wenbo5565.github.io/index.xml" title="Convergent" type="application/atom+xml" />
+
+
+<meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="format-detection" content="telephone=no,email=no,adress=no" />
+<meta http-equiv="Cache-Control" content="no-transform" />
+
+
+<meta name="robots" content="index,follow" />
+<meta name="referrer" content="origin-when-cross-origin" />
+<meta name="google-site-verification" content="_moDmnnBNVLBN1rzNxyGUGdPHE20YgbmrtzLIbxaWFc" />
+<meta name="msvalidate.01" content="22596E34341DD1D17D6022C44647E587" />
+
+
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="Convergent" />
+<meta name="msapplication-tooltip" content="Convergent" />
+<meta name='msapplication-navbutton-color' content="#5fbf5e" />
+<meta name="msapplication-TileColor" content="#5fbf5e" />
+<meta name="msapplication-TileImage" content="/img/tile-image-windows.png" />
+<link rel="icon" href="https://wenbo5565.github.io/img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="https://wenbo5565.github.io/img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="https://wenbo5565.github.io/img/favicon-32x32.png" />
+<link rel="icon" sizes="192x192" href="https://wenbo5565.github.io/img/touch-icon-android.png" />
+<link rel="apple-touch-icon" href="https://wenbo5565.github.io/img/touch-icon-apple.png" />
+<link rel="mask-icon" href="https://wenbo5565.github.io/img/safari-pinned-tab.svg" color="#5fbf5e" />
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/video.js/6.2.8/alt/video-js-cdn.min.css" />
+
+<link rel="stylesheet" href="https://wenbo5565.github.io/css/bundle.css" />
+
+
+  
+  <!--[if lt IE 9]>
+    <script src="//cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdn.bootcss.com/video.js/6.2.8/ie8/videojs-ie8.min.js"></script>
+  <![endif]-->
+
+<!--[if lte IE 11]>
+    <script src="//cdn.bootcss.com/classlist/1.1.20170427/classList.min.js"></script>
+  <![endif]-->
+
+
+<script src="//cdn.bootcss.com/object-fit-images/3.2.3/ofi.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/smooth-scroll/12.1.4/js/smooth-scroll.polyfills.min.js"></script>
+
+
+</head>
+  <body>
+    
+    <div class="suspension">
+      <a title="Go to top" class="to-top is-hide"><span class="icon icon-up"></span></a>
+      
+        
+        <a title="Go to comments" class="to-comment" href="#disqus_thread"><span class="icon icon-comment"></span></a>
+        
+      
+    </div>
+    
+    
+  <header class="site-header">
+  <img class="avatar" src="https://wenbo5565.github.io/img/avatar.jpg" alt="Avatar">
+  
+  <h2 class="title">Convergent</h2>
+  
+  <p class="subtitle">by An Accidental Statistician</p>
+  <button class="menu-toggle" type="button">
+    <span class="icon icon-menu"></span>
+  </button>
+  <nav class="site-menu collapsed">
+    <h2 class="offscreen">Main Menu</h2>
+    <ul class="menu-list">
+      
+      
+      
+      
+        <li class="menu-item
+            
+            
+            
+              is-active
+            ">
+            <a href="https://wenbo5565.github.io/">Posts</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="https://github.com/wenbo5565">Projects</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="https://wenbo5565.github.io/readings/">Readings</a>
+          </li>
+      
+        <li class="menu-item
+            
+            
+            ">
+            <a href="https://wenbo5565.github.io/about/">About</a>
+          </li>
+      
+    </ul>
+  </nav>
+  <nav class="social-menu collapsed">
+    <h2 class="offscreen">Social Networks</h2>
+    <ul class="social-list">
+
+      
+      <li class="social-item">
+        <a href="mailto:name@domain.com" title="Email"><span class="icon icon-email"></span></a>
+      </li>
+
+      
+      <li class="social-item">
+        <a href="//github.com/github_username" title="GitHub"><span class="icon icon-github"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="//twitter.com/twitter_username" title="Twitter"><span class="icon icon-twitter"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="//weibo.com/weibo_username" title="Weibo"><span class="icon icon-weibo"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="https://wenbo5565.github.io/img/qrcode.jpg" title="Wechat"><span class="icon icon-wechat"></span></a>
+      </li>
+
+      <li class="social-item">
+        <a href="//www.linkedin.com/in/linkedin_username" title="Linkedin"><span class="icon icon-linkedin"></span></a>
+      </li>
+
+      
+
+      
+
+      
+
+      <li class="social-item">
+        <a href="https://wenbo5565.github.io/index.xml"><span class="icon icon-rss" title="RSS"></span></a>
+      </li>
+
+    </ul>
+  </nav>
+</header>
+
+  <section class="main post-detail">
+    <header class="post-header">
+      <h1 class="post-title">A Short Note on Support Vector Machine (Part 2)</h1>
+      <p class="post-meta">@Wenbo · Jan 31, 2018 · 4 min read</p>
+    </header>
+    <article class="post-content"><ol style="list-style-type: decimal">
+<li><strong>Introduction</strong></li>
+</ol>
+<p>In <a href="https://wenbo5565.github.io/post/a-short-note-on-support-vector-machine/">A short note on support vector machine (part 1)</a>, we started from the motivation for SVM, formulated it as an optimization problem and ended by a QP solution of the optimizaiton problem. Taking from there, we will discuss the dual version of SVM. This post aims to answer the following question.</p>
+<ul>
+<li>What is the dual problem of the original SVM problem and why we care it.</li>
+<li>How do we derive the dual problem from the original one.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Motivation</strong></li>
+</ol>
+<p>Usually the first question I asked myself before studying any new knowledge is that why do I need to learn this? (even why does this staff exisit?). Back to the SVM, we have already had a solution, why do we further bother ourselves?</p>
+<p>The answer is as follows: in the original SVM, we have number of variables <span class="math inline">\(d\)</span> (or called features under machine learning settings) and number of observations <span class="math inline">\(N\)</span>. If d becomes very large (such as features transformations), the original SVM turns to be hard to solve. Therefore, we have to reformulate the original one into a new one with N variables and (N+1) constraints.</p>
+<p>Another reason is the dual probelm is an unconstrained optimizatio problem with repsect to <span class="math inline">\(w\)</span> and <span class="math inline">\(b\)</span> from which we can obtain some interesting property to get the optimal solution more easily.</p>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Lagrange Function - From Constrained Problem to Unconstrained Probelm</strong></li>
+</ol>
+<p>In most optimization problem, we always want to reformulate the problem into an easier and equivalent one. Up to now, the orginal problem is in the following format</p>
+<center>
+min <span class="math inline">\(\frac{1}{2}{w^{T}w}\)</span><br />
+s.t. <span class="math inline">\(y_{i}(w^{T}x_{i}+b)&gt;=1\)</span>
+</center>
+<p>By using Lagrange multiplier, we can reformulate it into an unconstrained version as</p>
+<center>
+<span class="math inline">\(\underset{w,b}{\text{min}}\Big( \underset{\alpha_{i}\geq0}{\text{max}} \ \frac{1}{2}{w^{T}w}+\sum_{i}^{N}\alpha_{i}(1-y_{i}(w^{T}x_{i}+b))\Big)\)</span>
+</center>
+<p><strong>What we did ?</strong></p>
+<p>This is fairly straightforward, we simply</p>
+<ul>
+<li>move everything in the inequality into right hand side</li>
+<li>add <span class="math inline">\(\alpha_{i}\)</span> to each inequality. (restrict <span class="math inline">\(\alpha_{i}\)</span> to be non-negative)</li>
+<li>add a inner maxmimzation operation before the original minmization problem</li>
+</ul>
+<p><strong>Why they are equivalent problem ?</strong></p>
+<p>To answer this question, we need to take a look at the original problem to see what it needs. Then if we can reason tha thet reformulated problem provides the same, then they are equivalent.</p>
+<ul>
+<li>The orginal problem wants <span class="math inline">\(w\)</span> and <span class="math inline">\(b\)</span> such that they satisfy all the inequality and minimize the <span class="math inline">\(\frac{1}{2}w^{T}w\)</span></li>
+<li>The reformulated one wants the same thing. Why?
+<ul>
+<li>If we have <span class="math inline">\(w\)</span> and <span class="math inline">\(b\)</span> violates any inequilities, what gonna happen? the corresponding <span class="math inline">\(\alpha_{i}\)</span> will become <span class="math inline">\(+\infty\)</span> due to the inner maximazation operation. Therefore, the solution from the reformulated question has to satisfy all the inequalities as well.</li>
+<li>Once candidate <span class="math inline">\(w\)</span> and <span class="math inline">\(b\)</span> satisfies all the constraints, <span class="math inline">\(\alpha_{i}\)</span> will be forced equal to 0 in the inner maximization operation because <span class="math inline">\(\alpha_{i} \geq 0\)</span> and all <span class="math inline">\(1-y_{i}(w^{t}x_{i}+b)&lt;0\)</span></li>
+</ul></li>
+</ul>
+<p>Now we can say after “prove” the equivalence, our SVM is now as</p>
+<center>
+<span class="math inline">\(\underset{w,b}{\text{min}}\Big( \underset{\alpha_{i}\geq0}{\text{max}} \ \frac{1}{2}{w^{T}w}+\sum_{i}^{N}\alpha_{i}(1-y_{i}(w^{T}x_{i}+b))\Big)\)</span>
+</center>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Two More Steps before We See the Benefits</strong></li>
+</ol>
+<p>The current formulation is hard to be expressed in algebraic mathemtical programming language to obtain a solution. We still have to further simplify it.</p>
+<p>The <strong>first</strong> trick is remove the inner maximation operation and replace it with a random <span class="math inline">\(\alpha^{&#39;}\)</span>(a vector of length N). Then we can get the following inequility:</p>
+<center>
+<span class="math inline">\(\underset{w,b}{\text{min}}\Big( \underset{\alpha_{i}\geq0}{\text{max}} \ \frac{1}{2}{w^{T}w}+\sum_{i}^{N}\alpha_{i}(1-y_{i}(w^{T}x_{i}+b))\Big) \geq \underset{w,b}{\text{min}}\Big(\frac{1}{2}{w^{T}w}+\sum_{i}^{N}\alpha_{i}^{&#39;}(1-y_{i}(w^{T}x_{i}+b))\Big)\)</span>
+</center>
+<p>The logic is that the maxmimized value (left hand side(LHS)) is always greater than or equal to a random value (right hand side(RHS))</p>
+<p>The <strong>second</strong> trick comes this way. For each feasible <span class="math inline">\(\alpha\)</span>, we can have an inequality as above. If we “combine” them together, we can conclude the LHS is greater than or equal to the maximium value of RHS. The logic is LHS is greater than or equal to every RHS therefore it must be greater than or equal to the maximum RHS. If you buy this logic, we’ll reach the following:</p>
+<center>
+<span class="math inline">\(\underset{w,b}{\text{min}}\Big( \underset{\alpha_{i}\geq0}{\text{max}} \ \frac{1}{2}{w^{T}w}+\sum_{i}^{N}\alpha_{i}(1-y_{i}(w^{T}x_{i}+b))\Big) \geq \underset{\alpha_{i}\geq0}{\text{max}}\ \underset{w,b}{\text{min}}\Big(\frac{1}{2}{w^{T}w}+\sum_{i}^{N}\alpha_{i}(1-y_{i}(w^{T}x_{i}+b))\Big)\)</span>
+</center>
+<p>Now, we have a lowerbound (RHS) of the orginal problem (LHS). It swaps the minimization and maximization order. The RHS problem is called the <strong>dual problem</strong> of the LHS.</p>
+<p><strong>What is the benefit ?</strong></p>
+<p>If we take a look at the dual problem, the inner minimization is an unconstrained problem (with respect to <span class="math inline">\(w\)</span> and <span class="math inline">\(b\)</span> which can be solved much more easily than the original constrained one. In addition, we can obtain some useful properties from this unconstrained version such as the gradient is equal to 0 for the optimal <span class="math inline">\(w\)</span> and <span class="math inline">\(b\)</span></p>
+<p>Secondly as said before, the original problem (the first formula in this post) has d (d+1 if we include b) variables and N constraints. This would be troublesome to solve if d becomes large (think of feature transformation into infinite space). We’ll see in the next post that the dual problem can be further simplifed to reach a version only involvs <span class="math inline">\(\alpha_{i}\)</span> as optimization variables. The number of features (d) in SVM will become irrelavent.(Isn’t this great for infinite feature transformation ?)</p>
+</article>
+    <footer class="post-footer">
+      
+      <ul class="post-tags">
+        
+      </ul>
+      
+      <p class="post-copyright">
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+      </p>
+    </footer>
+    
+      <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "convergent-1" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      
+    
+  </section>
+  <footer class="site-footer">
+  <p>© 2017-2018 Convergent</p>
+  <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/laozhu/hugo-nuo" target="_blank">Nuo</a>.</p>
+  
+</footer>
+
+
+
+<script async src="//cdn.bootcss.com/video.js/6.2.8/alt/video.novtt.min.js"></script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      displayMath: [['$$','$$'], ['\[','\]']],
+      processEscapes: true,
+      processEnvironments: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      TeX: { equationNumbers: { autoNumber: "AMS" },
+      extensions: ["AMSmath.js", "AMSsymbols.js"] }
+    }
+  });
+</script>
+<script type="text/x-mathjax-config">
+  // Fix <code> tags after MathJax finishes running. This is a
+  // hack to overcome a shortcoming of Markdown. Discussion at
+  // https://github.com/mojombo/jekyll/issues/199
+  MathJax.Hub.Queue(() => {
+    MathJax.Hub.getAllJax().map(v => v.SourceElement().parentNode.className += ' has-jax');
+  });
+</script>
+
+<script src="https://wenbo5565.github.io/js/bundle.js"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-XXXXXXXX-X', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+  </body>
+</html>

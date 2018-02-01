@@ -11,5 +11,14 @@
 	<atom:link href="https://wenbo5565.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Ml Notes</title>
+      <link>https://wenbo5565.github.io/categories/ml-notes/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenbo5565.github.io/categories/ml-notes/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,8 +1,8 @@
 ---
-title: A Short Note on Support Vector Machine
+title: A Short Note on Support Vector Machine (Part 1)
+subtitle: From Motivation, Formulation to Standard Quadratic Programming
 author: Wenbo
 date: '2018-01-30'
-slug: A Short Note on Support Vector Machine
 ---
 
 **Introduction**
