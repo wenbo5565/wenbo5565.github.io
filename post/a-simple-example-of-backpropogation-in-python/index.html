@@ -268,7 +268,7 @@ In this post, I will use a simple example to illstrate how backprogagtion calcul
 </ul>
 <p>If we assume <span class="math inline">\(x=3 \ \textrm{and} \ y=-4\)</span>, then we can get the following computational graph to obtain the result <span class="math inline">\(\frac{d}{dx}f\)</span> and <span class="math inline">\(\frac{d}{dy}f\)</span></p>
 <center>
-<img src="https://wenbo5565.github.io/img/backprop/blogimage/backprop.png" alt="Computational Graph of BackPropogation" />
+<img src="https://wenbo5565.github.io/img/blogimage/backprop.png" alt="Computational Graph of BackPropogation" style="width:80.0%" />
 </center>
 <p>*In the computational graph, the input value of an operation (node) is shown on the left to them while the output value is on the right. (above the line, the values under the line are derivative values)</p>
 <p>*The upstream derivative value of a node is shown on the right to them (below the line). The derivative value with respect to the node is shown on the left to them. It is the product of local derivatives (not shown in graph) and upstream derivative (right).</p>
@@ -312,7 +312,6 @@ dy2 = dsigy * (sigy*(1-sigy)) # second branch of y
 dx = dx1+dx2+dx3 # derivative to variable x
 dy = dy1+dy2 # derivative to variable y
 print(&quot;dx and dy equal to {0:.2f},{1:.2f}&quot;.format(dx,dy))</code></pre>
-<pre><code>## dx and dy equal to 2.06,1.59</code></pre>
 <p><strong>Conclusion</strong></p>
 <p>Up to now we have demonstrated how backpropagation can be used and implemented to enable computers to calculate derivatives of a complex function without explicitly writing down the mathematical formula.</p>
 <p>The example is based on a note from <a href="http://cs231n.github.io/optimization-2/">Standford CS 231n Course</a>. For complete understanding of backpropagation, please go to this link.</p>

@@ -50,7 +50,7 @@ In our example, f can be split into the following simple functions (m,n is dummy
 If we assume $x=3 \ \textrm{and} \ y=-4$, then we can get the following computational graph to obtain the result $\frac{d}{dx}f$ and $\frac{d}{dy}f$
 
 <center>
-![Computational Graph of BackPropogation](/img/backprop/blogimage/backprop.png)
+![Computational Graph of BackPropogation](/img/blogimage/backprop.png){width=80%}
 </center>
 
 *In the computational graph, the input value of an operation (node) is shown on the left to them while the output value is on the right. (above the line, the values under the line are derivative values)
@@ -95,7 +95,7 @@ In the backward computation phase, we'll be working from right to left to comput
 The $\frac{d}{dx}f$ is the sum of all x branches in the computation graph. The same rule applies to y.
 
 
-```{python}
+```{python eval=FALSE}
 df = 1 # derivative of f with respect to f (trivial)
 
 drec_denom = df * numer # derivative with respect to node rec_denom. It is the upstream derivative df * local gradient (multiplication gate)
