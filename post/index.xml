@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://wenbo5565.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Simple Example of Backpropogation in Python</title>
+      <link>https://wenbo5565.github.io/post/a-simple-example-of-backpropogation-in-python/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenbo5565.github.io/post/a-simple-example-of-backpropogation-in-python/</guid>
+      <description>Introduction
+Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, it enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
+In this post, I will use a simple example to illstrate how backprogagtion calculates the derivatives of a function and implement it in python.</description>
+    </item>
     
     <item>
       <title>A Short Note on Support Vector Machine (Part 2)</title>

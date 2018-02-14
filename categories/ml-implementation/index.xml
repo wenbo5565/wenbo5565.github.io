@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ml Implementation on Convergent</title>
+    <link>https://wenbo5565.github.io/categories/ml-implementation/</link>
+    <description>Recent content in Ml Implementation on Convergent</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 13 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://wenbo5565.github.io/categories/ml-implementation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Simple Example of Backpropogation in Python</title>
+      <link>https://wenbo5565.github.io/post/a-simple-example-of-backpropogation-in-python/</link>
+      <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://wenbo5565.github.io/post/a-simple-example-of-backpropogation-in-python/</guid>
+      <description>Introduction
+Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, it enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
+In this post, I will use a simple example to illstrate how backprogagtion calculates the derivatives of a function and implement it in python.</description>
+    </item>
+    
+  </channel>
+</rss>
