@@ -17,7 +17,7 @@
   
   <meta name="author" content="Wenbo" />
   <meta name="description" content="Introduction
-Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, it enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
+Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, I think its power (in practice) enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
 In this post, I will use a simple example to illstrate how backprogagtion calculates the derivatives of a function and implement it in python." />
 
   
@@ -26,7 +26,7 @@ In this post, I will use a simple example to illstrate how backprogagtion calcul
     <meta name="twitter:site" content="@twitter_username" />
     <meta name="twitter:title" content="A Simple Example of Backpropogation in Python" />
     <meta name="twitter:description" content="Introduction
-Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, it enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
+Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, I think its power (in practice) enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
 In this post, I will use a simple example to illstrate how backprogagtion calculates the derivatives of a function and implement it in python." />
     <meta name="twitter:image" content="https://wenbo5565.github.io/img/avatar.jpg" />
   
@@ -35,7 +35,7 @@ In this post, I will use a simple example to illstrate how backprogagtion calcul
   <meta property="og:type" content="article" />
   <meta property="og:title" content="A Simple Example of Backpropogation in Python" />
   <meta property="og:description" content="Introduction
-Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, it enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
+Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, I think its power (in practice) enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.
 In this post, I will use a simple example to illstrate how backprogagtion calculates the derivatives of a function and implement it in python." />
   <meta property="og:url" content="https://wenbo5565.github.io/post/a-simple-example-of-backpropogation-in-python/" />
   <meta property="og:image" content="https://wenbo5565.github.io/img/avatar.jpg" />
@@ -239,7 +239,7 @@ In this post, I will use a simple example to illstrate how backprogagtion calcul
       <p class="post-meta">@Wenbo · Feb 13, 2018 · 4 min read</p>
     </header>
     <article class="post-content"><p><strong>Introduction</strong></p>
-<p>Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, it enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.</p>
+<p>Backpropagation is being widely used in neural networks to enable computers learn weights in each layer of a neural network. From mathematics perspective, it is just an implementation of chain rule in Calculus. However, I think its power (in practice) enables the computer to calculate derivative of complex functions (e.g. deep neural networks) without explicitly writing down the mathematical formulas.</p>
 <p>In this post, I will use a simple example to illstrate how backprogagtion calculates the derivatives of a function and implement it in python.</p>
 <p><strong>Example</strong></p>
 <p>The example function used in the post is as follows and our goal is to calculate <span class="math inline">\(\frac{d}{dx}f\)</span> and <span class="math inline">\(\frac{d}{dy}f\)</span></p>
@@ -270,8 +270,10 @@ In this post, I will use a simple example to illstrate how backprogagtion calcul
 <center>
 <img src="https://wenbo5565.github.io/img/blogimage/backprop.png" alt="Computational Graph of BackPropogation" style="width:80.0%" />
 </center>
-<p>*In the computational graph, the input value of an operation (node) is shown on the left to them while the output value is on the right. (above the line, the values under the line are derivative values)</p>
-<p>*The upstream derivative value of a node is shown on the right to them (below the line). The derivative value with respect to the node is shown on the left to them. It is the product of local derivatives (not shown in graph) and upstream derivative (right).</p>
+<ul>
+<li><p>In the computational graph, the input value of an operation (node) is shown on the left to them while the output value is on the right. (above the line, the values under the line are derivative values)</p></li>
+<li><p>The upstream derivative value of a node is shown on the right to them (below the line). The derivative value with respect to the node is shown on the left to them. It is the product of local derivatives (not shown in graph) and upstream derivative (right).</p></li>
+</ul>
 <p><strong>Python Implementation</strong></p>
 <p>Based on the computational graph above, we can therefore implement it in python.</p>
 <p><strong><em>Feedforward Computation</em></strong></p>
