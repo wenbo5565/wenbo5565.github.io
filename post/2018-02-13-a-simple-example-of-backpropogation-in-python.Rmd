@@ -97,33 +97,19 @@ The $\frac{d}{dx}f$ is the sum of all x branches in the computation graph. The s
 
 ```{python eval=FALSE}
 df = 1 # derivative of f with respect to f (trivial)
-
 drec_denom = df * numer # derivative with respect to node rec_denom. It is the upstream derivative df * local gradient (multiplication gate)
-
 ddenom = drec_denom * (-1.0/(denom*denom)) # derivative with respect to node denom
-
 dsigx = ddenom * 1 # derivative with respect to sigx
-
 dxandysqr = ddenom * 1 # derivative to node xandsqr
-
 dx1 = dsigx * (sigx*(1-sigx)) # derivative of part of x (one branch of x)
-
 dxandy = dxandysqr * 2*xandy # derivative to node xandy
-
 dx2 = dxandy * 1 # second branch of x
-
 dy1 = dxandy * 1 # first branch of y
-
 dnumer = df * rec_denom # derivative to node numer
-
 dx3 = dnumer * 1 # third branch of x
-
 dsigy = dnumer * 1 # derivative to node sigy
-
 dy2 = dsigy * (sigy*(1-sigy)) # second branch of y
-
 dx = dx1+dx2+dx3 # derivative to variable x
-
 dy = dy1+dy2 # derivative to variable y
 
 print("dx and dy equal to {0:.2f},{1:.2f}".format(dx,dy))
