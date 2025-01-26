@@ -8,7 +8,7 @@ redirect_from:
 ---
 
  
-My research focuses on developing computational decision-support models in two seemingly unrelated but interesting (at least to me) domains:  medical sciences and quantitative trading.
+My research focuses on developing computational decision-support models in two seemingly unrelated but fascinating (to me) domains:  medical sciences and quantitative trading.
 
 On the medical side, I explore how computational modeling techniques advance the diagnosis, treatment/drug optimization, and healthcare interventions for critical illness, including Neurodegenerative and Neurodevelopment disorders (e.g., Alzheimer's disease and Autism/Asperger's), Immune disorders (e.g., autoimmune diseases), and Vestibular disorders (e.g., Mal de Débarquement Syndrome)
 
