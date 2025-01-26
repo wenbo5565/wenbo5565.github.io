@@ -7,10 +7,10 @@ redirect_from:
   - /about.html
 ---
 
- 
-My research focuses on developing computational decision-support models in two seemingly unrelated but fascinating (to me) domains:  medical sciences and quantitative trading.
+My research focuses on developing computational decision-support models in medical sciences and quantitative trading.
 
-On the medical side, I explore how computational modeling techniques advance the diagnosis, treatment/drug optimization, and healthcare interventions for critical illness, including Neurodegenerative and Neurodevelopment disorders (e.g., Alzheimer's disease and Autism/Asperger's), Immune disorders (e.g., autoimmune diseases), and Vestibular disorders (e.g., Mal de Débarquement Syndrome)
+On the medical side, I explore how mathematical optimization can enhance the diagnosis, treatment, and healthcare interventions for critical illnesses, including: Neurodegenerative disorders (e.g., Alzheimer's disease), Neurodevelopmental disorders (e.g., Autism/Asperger's)
+, Immune disorders (e.g., autoimmune diseases), Vestibular disorders (e.g., Mal de Débarquement Syndrome)
 
 In quantitative trading, my goal is to develop computational models that empower retail and individual traders, helping them make more informed investment decisions. This focus contrasts with traditional efforts aimed at institutional traders.
 
@@ -52,4 +52,3 @@ Example: editing a markdown file for a talk
 For more info
 ------
 More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
-
