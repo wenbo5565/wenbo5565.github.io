@@ -10,7 +10,7 @@ redirect_from:
  
 My research focuses on developing computational decision-support models in medical sciences and quantitative trading.
 
-On the medical side, I explore how computational modeling techniques advance the diagnosis, treatment/drug optimization, and healthcare interventions for certain disorders, including: Neurodegenerative and Neurodevelopment disorders (e.g., Alzheimer's disease and Autism/Asperger's), Immune disorders (e.g., autoimmune diseases), and Vestibular disorders (e.g., Mal de Débarquement Syndrome)
+On the medical side, I explore how computational modeling techniques advance the diagnosis, treatment/drug optimization, and healthcare interventions for critical illness, including Neurodegenerative and Neurodevelopment disorders (e.g., Alzheimer's disease and Autism/Asperger's), Immune disorders (e.g., autoimmune diseases), and Vestibular disorders (e.g., Mal de Débarquement Syndrome)
 
 In quantitative trading, my goal is to develop computational models that empower retail and individual traders, helping them make more informed investment decisions. This focus contrasts with traditional efforts aimed at institutional traders.
 
