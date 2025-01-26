@@ -7,7 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research focuses on developing computational decision-support models in medical sciences and quantitative trading.
+
+On the medical side, I explore how mathematical optimization can enhance the diagnosis, treatment, and healthcare interventions for critical illnesses, including: Neurodegenerative disorders (e.g., Alzheimer's disease), Neurodevelopmental disorders (e.g., Autism/Asperger's)
+, Immune disorders (e.g., autoimmune diseases), Vestibular disorders (e.g., Mal de Débarquement Syndrome)
+
+In quantitative trading, my goal is to develop computational models that empower retail and individual traders, helping them make more informed investment decisions. This focus contrasts with traditional efforts aimed at institutional traders.
 
 A data-driven personal website
 ======
