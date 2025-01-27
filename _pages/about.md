@@ -1,4 +1,4 @@
-My research focuses on developing computational models in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
+My research focuses developing computational decision systems in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
 In medical sciences, I am exploring how mathematical optimization can advance the diagnosis, treatment, and healthcare interventions for critical illnesses in neurology and immunology, including neurodegenerative (e.g., Alzheimer's disease) and neurodevelopmental disorders (e.g., Autism/Asperger's), immune disorders (e.g., autoimmune diseases), and vestibular disorders (e.g., Mal de Débarquement Syndrome, MdDS).
 
