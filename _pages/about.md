@@ -4,3 +4,4 @@ In medical sciences, I am exploring how mathematical optimization can advance th
 
 In quantitative trading, my goal is to design computational models that empower retail and individual traders to make more informed investment decisions. This contrasts with the traditional emphasis on supporting institutional traders.
 
+Before transitioning to academia, I worked as a data scientist in industry, where I developed large-scale, production-level machine learning and mathematical optimization models to enhance operational efficiency across areas such as anti-fraud management, credit risk, and pricing. For example, at Capital One, I developed a pioneering integer programming model to determine how quickly customers could access their funds after depositing a check. Over the years, I held various roles at organizations including Goldman Sachs, Capital One, Freddie Mac, AvalonBay, and Deloitte.
