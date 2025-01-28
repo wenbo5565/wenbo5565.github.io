@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-About me:
+About me
 
 My research explores computational modeling and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
