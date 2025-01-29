@@ -47,4 +47,4 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 
 - Tutorial:
     - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
-      - [Slide]()
+      - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
