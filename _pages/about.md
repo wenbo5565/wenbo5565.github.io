@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-### About
+## About
 
 My research explores computational modeling and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
@@ -19,8 +19,11 @@ Before transitioning to academia, I worked as a data scientist in industry, wher
 
 Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, and soccer — as well as reading about history.
 
-### Publications
+## Publications
 
-#### Refereed Journals
+### Refereed Journals
+1. "Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods,"
+   , with Miguel Lejeune
+   **Operations Research**, 2024.  
 
-#### Professional Articles
+### Professional Articles
