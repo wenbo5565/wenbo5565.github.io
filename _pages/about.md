@@ -23,16 +23,16 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 
 ### Refereed Journals
 1. Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods, **Operations Research**, 2024. \
-   , with Miguel Lejeune
+   with Miguel Lejeune
 
 2. Multi‐agent search for a moving and camouflaging target, **Naval Research Logistics**, 2024. \
-   , with Miguel Lejeune and Johannes Royset 
+   with Miguel Lejeune and Johannes Royset 
 
 4. Profit-based unit commitment models with price-responsive decision-dependent uncertainty, **European Journal of Operational Research**, 2024. \
-   , with Payman Dehghanian and Miguel Lejeune 
+   with Payman Dehghanian and Miguel Lejeune 
 
 6. A distributionally robust area under curve maximization model, **Operations Research Letters,**, 2020. \
-   , with Miguel Lejeune
+   with Miguel Lejeune
 
 ### Professional Articles
 
