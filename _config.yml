@@ -79,10 +79,12 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Peer Reviewed Journals'    
   conferences:
     title: 'Conference Papers'
-
+  professionals:
+    title: 'Professional Articles"
+    
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
