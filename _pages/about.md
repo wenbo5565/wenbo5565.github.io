@@ -19,7 +19,7 @@ Before transitioning to academia, I worked as a data scientist in industry, wher
 
 Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, and soccer — as well as reading about history.
 
-## Publications
+## Publications <a id="publications"></a>
 
 ### Refereed Journals
 1. Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods, **Operations Research**, 2024. \
