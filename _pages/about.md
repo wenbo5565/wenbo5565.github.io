@@ -22,8 +22,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 ## Publications
 
 ### Refereed Journals
-1. Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods \
-   **Operations Research**, 2024. \
+1. Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods, **Operations Research**, 2024. \
    , with Miguel Lejeune 
 
 ### Professional Articles
