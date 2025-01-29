@@ -570,4 +570,8 @@ border-radius: .1em;
   color: #fff;
 }
 
-
+.archive__item {
+    color: inherit; /* Inherit the default color */
+    text-decoration: none; /* Remove any underline if there was one */
+    cursor: default; /* Set cursor to default (no pointer) */
+}
