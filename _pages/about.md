@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## About <<a id="about"></a>
+## About <a id="about"></a>
 
 My research explores computational modeling and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
