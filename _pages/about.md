@@ -19,6 +19,9 @@ Before transitioning to academia, I worked as a data scientist in industry, wher
 
 Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, and soccer — as well as reading about history.
 
+**Popular news coverage** for some of my research: 
+ - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
+   
 ## Publications <a id="publications"></a>
 
 ### Refereed Journals
