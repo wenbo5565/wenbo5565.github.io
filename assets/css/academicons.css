@@ -569,3 +569,13 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+
+.archive__item {
+    font-size: 1.8rem; /* Change font size */
+    font-weight: bold; /* Make it bold */
+    color: #333; /* Change text color */
+    margin-bottom: 1.5rem; /* Add spacing below */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make all letters uppercase */
+}
+
