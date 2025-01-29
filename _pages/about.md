@@ -38,5 +38,13 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 
 1. [How Mathematical Optimization Helps to Improve Customer Experience and Fraud Defense for Consumer Banking](https://pubsonline.informs.org/do/10.1287/orms.2024.03.12/full/), **ORMS Today**, 2024. 
 
-**Popular news coverage** for some of my research: 
+<!--
+ **Popular news coverage** for some of my research: 
  - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
+-->
+
+## Teaching <a id="teaching"></a>
+
+- Tutorial:
+    - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
+      - [Slide]()
