@@ -28,10 +28,10 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 2. [Multi‐agent search for a moving and camouflaging target](https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.22160), **Naval Research Logistics**, 2024. \
    with Miguel Lejeune and Johannes Royset 
 
-3. [Profit-based unit commitment models with price-responsive decision-dependent uncertainty], **European Journal of Operational Research**, 2024. \
+3. [Profit-based unit commitment models with price-responsive decision-dependent uncertainty](), **European Journal of Operational Research**, 2024. \
    with Payman Dehghanian and Miguel Lejeune 
 
-4. [A distributionally robust area under curve maximization model], **Operations Research Letters,**, 2020. \
+4. [A distributionally robust area under curve maximization model](), **Operations Research Letters,**, 2020. \
    with Miguel Lejeune
 
 ### Professional Articles
