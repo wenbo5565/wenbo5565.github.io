@@ -18,9 +18,6 @@ In quantitative trading, my goal is to design computational models that empower 
 Before transitioning to academia, I worked as a data scientist in industry, where I developed large-scale, production-level machine learning and mathematical optimization models to enhance operational efficiency across areas such as anti-fraud management, credit risk, and pricing. For example, at Capital One, I developed a novel integer-programming model to determine how quickly customers could use their funds after depositing a check. Over the years, I held various roles at organizations including Goldman Sachs, Capital One, Freddie Mac, AvalonBay, and Deloitte.
 
 Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, and soccer — as well as reading about history.
-
-**Popular news coverage** for some of my research: 
- - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
    
 ## Publications <a id="publications"></a>
 
@@ -40,3 +37,6 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 ### Professional Articles
 
 1. How Mathematical Optimization Helps to Improve Customer Experience and Fraud Defense for Consumer Banking, **ORMS Today**, 2024. 
+
+**Popular news coverage** for some of my research: 
+ - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
