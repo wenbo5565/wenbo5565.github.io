@@ -49,13 +49,11 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
     - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
       - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
      
-## Learning <a id="learning"></a>
-
 ## Industry Experience <a id="industry"></a>
 
 ### Full-Time
 - Risk Strats, Goldman Sachs (Remote)
-- Principal Data Scientist, Capital One (Mclean, VA)
+- Principal Data Scientist, Capital One (McLean, VA)
 - Quantitative Analyst, Freddie Mac (McLean, VA)
 - Data Scientist, AvalonBay (Arlington, VA)
 - Data Analyst, Deloitte (New York, NY)
@@ -63,3 +61,27 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 ### Internship
 - Audit Intern, PwC (Hong Kong)
 - Audit Intern, RSM/McGladrey (Chicago, IL)
+
+## Learning <a id="learning"></a>
+
+### Formal Education
+- Ph.D. TBD
+- Ph.D. Data Sciences and Operations (Dropped out), Marshall School of Business at University of Southern California (USC)
+  - Studied one semester before I dropped out to move back to D.C. for family reasons
+- M.S. Data Science - Operations Research (Part-Time), George Washington University
+- M.S. Statistics, Rutgers University - New Brunswick
+
+### Online Learning
+Since my research is interdisciplinary and my formal education is solely in the "math" part, I have relied on various resources to study the other part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
+
+#### Medical Sciences
+- [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
+- Anatomy: Human Neuroanatomy. University of Michigan via Coursera
+  
+#### Biology
+- Contemporary Biology. University of North Texas via Coursera
+  
+#### Chemistry
+- Introduction to Chemistry. Duke University via Coursera
+
+#### Physics
