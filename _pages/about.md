@@ -48,3 +48,18 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 - Tutorial:
     - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
       - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
+     
+## Learning <a id="learning"></a>
+
+## Industry Experience <a id="industry"></a>
+
+### Full-Time
+- Risk Strats, Goldman Sachs (Remote)
+- Principal Data Scientist, Capital One (Mclean VA)
+- Quantitative Analyst, Freddie Mac (McLean VA)
+- Data Scientist, AvalonBay (Arlington VA)
+- Data Analyst, Deloitte (New York NY)
+
+### Internship
+- Audit Intern, PwC (Hong Kong)
+- Audit Intern, RSM/McGladrey (Chicago IL)
