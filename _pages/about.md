@@ -72,7 +72,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 - M.S. Statistics, Rutgers University - New Brunswick
 
 ### Online Learning
-Since my research is interdisciplinary and my formal education is solely in the "math" part, I have relied on various resources to study the other part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
+Since my research is interdisciplinary and my formal education is solely in the "math" part, I have relied on various resources to study "the other" part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
 
 #### Medical Sciences
 - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
