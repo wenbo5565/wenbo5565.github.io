@@ -55,11 +55,11 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 
 ### Full-Time
 - Risk Strats, Goldman Sachs (Remote)
-- Principal Data Scientist, Capital One (Mclean VA)
-- Quantitative Analyst, Freddie Mac (McLean VA)
-- Data Scientist, AvalonBay (Arlington VA)
-- Data Analyst, Deloitte (New York NY)
+- Principal Data Scientist, Capital One (Mclean, VA)
+- Quantitative Analyst, Freddie Mac (McLean, VA)
+- Data Scientist, AvalonBay (Arlington, VA)
+- Data Analyst, Deloitte (New York, NY)
 
 ### Internship
 - Audit Intern, PwC (Hong Kong)
-- Audit Intern, RSM/McGladrey (Chicago IL)
+- Audit Intern, RSM/McGladrey (Chicago, IL)
