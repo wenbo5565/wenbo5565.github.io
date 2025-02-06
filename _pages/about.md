@@ -17,7 +17,7 @@ In quantitative trading, my goal is to design computational models that empower 
 
 Before transitioning to academia, I worked as a data scientist in industry, leading cross-functional projects to develop large-scale, production-ready machine learning and mathematical optimization models. These models were designed to improve operational efficiency in key areas such as fraud prevention, credit risk assessment, and pricing optimization. For example, at Capital One, I developed a novel integer programming model to optimize fund availability for customers after check deposits while mitigating the bank's fraud risk. Over the years, I held various roles at organizations including Goldman Sachs, Capital One, Freddie Mac, AvalonBay, and Deloitte.
 
-Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, soccer and swimming — as well as reading about history.
+Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, soccer — as well as reading about history.
    
 ## Publications <a id="publications"></a>
 
