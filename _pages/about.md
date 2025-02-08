@@ -69,7 +69,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 ### Formal Education
 - Ph.D. TBD
 - Ph.D. (Dropout) Data Sciences and Operations, Marshall School of Business at University of Southern California (USC)
-  - Studied for one semester before withdrawing to return to D.C. for family reasons
+  - Withdrew after completing one semester to return to D.C. for family reasons
 - M.S. Data Science - Operations Research (Part-Time), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
 
