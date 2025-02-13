@@ -15,7 +15,7 @@ In medical sciences, I am exploring how mathematical optimization can advance th
 
 In quantitative trading, my goal is to design computational models that empower retail and individual traders to make more informed investment decisions. This contrasts with the traditional emphasis on supporting institutional traders.
 
-Before transitioning to academia, I worked as a data scientist in industry, leading cross-functional projects to develop large-scale, production-ready machine learning and mathematical optimization models. These models were designed to improve operational efficiency in areas such as fraud prevention, credit risk assessment, and pricing optimization. For example, at Capital One, I developed a novel integer programming model to optimize fund availability for customers after check deposits while mitigating the bank's fraud risk. Over the years, I held various roles at organizations including Goldman Sachs, Capital One, Freddie Mac, AvalonBay, and Deloitte.
+Before transitioning to academia, I worked as a data scientist in industry, leading cross-functional projects to develop large-scale, production-ready machine learning and mathematical optimization models. These models were designed to improve operational efficiency in areas such as fraud prevention, credit risk assessment, and pricing optimization. For instance, at Capital One, I developed a novel integer programming model to optimize fund availability for customers after check deposits while mitigating the bank's fraud risk. Over the years, I held various roles at organizations including Goldman Sachs, Capital One, Freddie Mac, AvalonBay, and Deloitte.
 
 Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, soccer — as well as reading about history.
    
@@ -58,11 +58,9 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 - Data Scientist, AvalonBay (Arlington, VA)
 - Data Analyst, Deloitte (New York, NY)
 
-<!--
 ### Internship
 - Audit Intern, PwC (Hong Kong)
-- Audit Intern, RSM/McGladrey (Chicago, IL)
--->
+- Audit Intern, RSM US/McGladrey (Chicago, IL)
 
 ## Learning <a id="learning"></a>
 
