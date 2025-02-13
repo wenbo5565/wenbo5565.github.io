@@ -60,7 +60,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 
 ### Internship
 - Audit Intern, PwC (Hong Kong)
-- Audit Intern, RSM US/McGladrey (Chicago, IL)
+- Audit Intern, RSM U.S./McGladrey (Chicago, IL)
 
 ## Learning <a id="learning"></a>
 
