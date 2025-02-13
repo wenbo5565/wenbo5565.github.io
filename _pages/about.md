@@ -55,7 +55,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 - Risk Strat/Quant, Goldman Sachs (Remote)
 - Principal Data Scientist, Capital One (McLean, VA)
 - Quantitative Analyst, Freddie Mac (McLean, VA)
-- Data Scientist, AvalonBay (Arlington, VA)
+- Data Scientist, AvalonBay Communities (AVB) (Arlington, VA)
 - Data Analyst, Deloitte (New York, NY)
 
 ### Internship
