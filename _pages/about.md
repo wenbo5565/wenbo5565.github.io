@@ -74,14 +74,14 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 ### Online Learning
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have relied on various resources to study "the other" part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
 
-- #### Medical Sciences
+- ### Medical Sciences
   - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
   - Anatomy: Human Neuroanatomy. University of Michigan via Coursera
   
-- #### Biology
+- ### Biology
   - Contemporary Biology. University of North Texas via Coursera
   
-- #### Chemistry
+- ### Chemistry
   - Introduction to Chemistry. Duke University via Coursera
 
-- #### Physics
+- ### Physics
