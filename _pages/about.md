@@ -29,7 +29,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
    with Miguel Lejeune and Johannes Royset 
 
 - [Profit-based unit commitment models with price-responsive decision-dependent uncertainty](https://www.sciencedirect.com/science/article/abs/pii/S0377221723009177), **European Journal of Operational Research**, 2024. \
-   with Miguel Lejeune and Payman Dehghanian. \ 
+   with Miguel Lejeune and Payman Dehghanian. 
 
 - [A distributionally robust area under curve maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters,**, 2020. \
    with Miguel Lejeune
@@ -66,7 +66,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 
 ### Formal Education
 - Ph.D. TBD
-- Ph.D. (Dropout) Data Sciences and Operations, Marshall School of Business at University of Southern California (USC)
+- Ph.D. (Dropout) Operations Management. Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
   - Withdrew after completing one semester to return to D.C. for family reasons
 - M.S. Data Science - Operations Research (Part-Time), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
