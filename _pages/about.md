@@ -78,6 +78,7 @@ Since my research is interdisciplinary and my formal education is only in the "m
 - ### Medical Sciences
   - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
   - Anatomy: Human Neuroanatomy. University of Michigan via Coursera
+  - [Fundamentals of Immunology Specialization] (https://www.coursera.org/specializations/immunology). Rice University via Coursera
   
 - ### Biology
   - Contemporary Biology. University of North Texas via Coursera
