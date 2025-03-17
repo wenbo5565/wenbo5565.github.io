@@ -43,6 +43,16 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
  - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
 -->
 
+## Learning <a id="learning"></a>
+
+### Formal Education
+- Ph.D. TBD
+- Ph.D. (Dropout) Operations Research, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
+  - Withdrew after completing one semester to return to D.C. for family reasons
+  - Also admitted and took core coursework at the Industrial and System Engineering department at USC Viterbi School of Engineering
+- M.S. Data Science - Operations Research (Part-Time), George Washington University
+- M.S. Statistics, Rutgers University - New Brunswick
+
 ## Teaching <a id="teaching"></a>
 
 - Tutorial:
@@ -61,15 +71,6 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 ### Internship
 - Audit Intern, PwC (Hong Kong)
 - Audit Intern, RSM U.S./McGladrey (Chicago, IL)
-
-## Learning <a id="learning"></a>
-
-### Formal Education
-- Ph.D. TBD
-- Ph.D. (Dropout) Operations Management, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
-  - Withdrew after completing one semester to return to D.C. for family reasons
-- M.S. Data Science - Operations Research (Part-Time), George Washington University
-- M.S. Statistics, Rutgers University - New Brunswick
 
 ### Online Learning
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have relied on various resources to study "the other" part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
