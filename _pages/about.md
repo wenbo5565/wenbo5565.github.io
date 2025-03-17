@@ -53,6 +53,25 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 - M.S. Data Science - Operations Research, George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
 
+### Online Learning
+Since my research is interdisciplinary and my formal education is only in the "math" part, I have relied on various resources to study "the other" part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
+
+- ### Medical Sciences
+  - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
+  - Anatomy: Human Neuroanatomy. University of Michigan via Coursera
+  - [Fundamentals of Immunology Specialization](https://www.coursera.org/specializations/immunology). Rice University via Coursera
+  
+- ### Biology
+  - Contemporary Biology. University of North Texas via Coursera
+  
+- ### Chemistry
+  - Introduction to Chemistry. Duke University via Coursera
+
+- ### Physics
+
+
+
+
 ## Teaching <a id="teaching"></a>
 
 - Tutorial:
@@ -72,18 +91,3 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, ba
 - Audit Intern, PwC (Hong Kong)
 - Audit Intern, RSM U.S./McGladrey (Chicago, IL)
 
-### Online Learning
-Since my research is interdisciplinary and my formal education is only in the "math" part, I have relied on various resources to study "the other" part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
-
-- ### Medical Sciences
-  - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
-  - Anatomy: Human Neuroanatomy. University of Michigan via Coursera
-  - [Fundamentals of Immunology Specialization](https://www.coursera.org/specializations/immunology). Rice University via Coursera
-  
-- ### Biology
-  - Contemporary Biology. University of North Texas via Coursera
-  
-- ### Chemistry
-  - Introduction to Chemistry. Duke University via Coursera
-
-- ### Physics
