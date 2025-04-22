@@ -17,7 +17,7 @@ In quantitative trading, my goal is to design computational models that empower 
 
 Before transitioning to academia, I worked as a data scientist in industry, leading cross-functional projects to develop large-scale, production-ready machine learning and mathematical optimization models. These models were designed to improve operational efficiency in areas such as fraud prevention, customer experience, credit risk assessment, and pricing optimization. For instance, at Capital One, I developed a novel integer programming model to optimize fund availability following customer check deposits, while simultaneously mitigating the bank’s exposure to fraud risk. This solution significantly accelerates funds availability for millions of customers using Capital One’s mobile app,  providing faster access to their money. Over the years, I held various roles at organizations including Goldman Sachs, Capital One, Freddie Mac, AvalonBay, and Deloitte.
 
-Outside of work, I enjoy playing and watching sports — particularly tennis, basketball, soccer — as well as reading about history.
+Outside of work, I enjoy playing and watching sports — particularly tennis, swimming, basketball, soccer — as well as reading about history.
    
 ## Publications <a id="publications"></a>
 
@@ -80,7 +80,7 @@ Since my research is interdisciplinary and my formal education is only in the "m
 ## Industry Experience <a id="industry"></a>
 
 ### Full-Time
-- Risk Strat/Quant, Goldman Sachs (Remote)
+- Risk Strats/Quant, Goldman Sachs (Remote from McLean, VA and Los Angeles, CA)
 - Principal Data Scientist, Capital One (McLean, VA)
 - Quantitative Analyst, Freddie Mac (McLean, VA)
 - Data Scientist, AvalonBay Communities (AVB) (Arlington, VA)
