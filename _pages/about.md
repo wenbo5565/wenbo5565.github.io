@@ -53,7 +53,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - M.S. Statistics, Rutgers University - New Brunswick
 
 ### Online Learning
-Since my research is interdisciplinary and my formal education is only in the "math" part, I have relied on various resources to study "the other" part, including medical science, biology, chemistry, and physics. Below are some of the resources I have used.
+Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
 
 - ### Medical Sciences
   - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
@@ -62,9 +62,12 @@ Since my research is interdisciplinary and my formal education is only in the "m
   
 - ### Biology
   - Contemporary Biology. University of North Texas via Coursera
-  
+  - [Introduction to Biology](https://learning.edx.org/course/course-v1:MITx+7.00x+1T2025/home) - The Secret of Life. MITx 7.00x via edX
+  - [Cell Biology](https://learning.edx.org/course/course-v1:MITx+7.06.1x+1T2025/home). MITx 7.06x via edX
+    
 - ### Chemistry
   - [Introduction to Chemistry](https://www.coursera.org/learn/basic-chemistry). Duke University via Coursera
+  - [Biochemistry: Biomolecules, Methods, and Mechanisms](https://learning.edx.org/course/course-v1:MITx+7.05x+1T2025/home). MITx 7.05x via edX
 
 - ### Physics
 
