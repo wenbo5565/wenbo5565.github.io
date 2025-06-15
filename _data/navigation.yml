@@ -11,11 +11,13 @@ main:
   - title: "Publications"
     url: /#publications
 
+  - title: "Industry Experience"
+    url: /#industry
+
   - title: "Teaching"
     url: /#teaching    
   
   - title: "Learning"
     url: /#learning
 
-  - title: "Industry Experience"
-    url: /#industry
+
