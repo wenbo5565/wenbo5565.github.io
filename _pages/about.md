@@ -71,7 +71,7 @@ Since my research is interdisciplinary and my formal education is only in the "m
 - ### Chemistry
   - [Introduction to Chemistry] Duke University via Coursera
     - [Reactions and Ratios](https://www.coursera.org/account/accomplishments/certificate/7DQIP192BUXD).
-    - [Structures and Solutions](https://www.coursera.org/account/accomplishments/verify/T4SKYBPFN5CY) 
+    - [Structures and Solutions](https://www.coursera.org/account/accomplishments/certificate/T4SKYBPFN5CY) 
   - [Biochemistry: Biomolecules, Methods, and Mechanisms](https://learning.edx.org/course/course-v1:MITx+7.05x+1T2025/home). MITx 7.05x via edX
 
 - ### Physics
