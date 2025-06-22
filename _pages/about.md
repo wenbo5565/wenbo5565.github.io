@@ -56,7 +56,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
 
 - ### Medical Sciences
-  - [Introductory Human Physiology](https://www.coursera.org/learn/physiology). Duke University via Coursera
+  - [Introductory Human Physiology](https://coursera.org/share/a280a64d4f486e2b060c1431b9ab9b67). Duke University via Coursera
   - [Anatomy: Human Neuroanatomy](https://www.coursera.org/learn/anatomy403-3x?specialization=anatomy). University of Michigan via Coursera
   - [Fundamentals of Immunology Specialization](https://www.coursera.org/specializations/immunology). Rice University via Coursera
   
