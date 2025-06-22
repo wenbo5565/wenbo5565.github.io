@@ -57,7 +57,7 @@ Since my research is interdisciplinary and my formal education is only in the "m
 
 - ### Medical Sciences
   - [Introductory Human Physiology](https://www.coursera.org/account/accomplishments/certificate/2NDJMJF6FNSO). Duke University via Coursera
-  - [Anatomy: Human Neuroanatomy](https://www.coursera.org/learn/anatomy403-3x?specialization=anatomy). University of Michigan via Coursera
+  - [Anatomy: Human Neuroanatomy](https://www.coursera.org/account/accomplishments/certificate/VUX9ONP8L94T). University of Michigan via Coursera
   - [Fundamentals of Immunology Specialization](https://www.coursera.org/specializations/immunology). Rice University via Coursera
   
 - ### Biology
@@ -69,7 +69,9 @@ Since my research is interdisciplinary and my formal education is only in the "m
   - Contemporary Biology. University of North Texas via Coursera
     
 - ### Chemistry
-  - [Introduction to Chemistry](https://www.coursera.org/learn/basic-chemistry). Duke University via Coursera
+  - [Introduction to Chemistry] Duke University via Coursera
+    - [Reactions and Ratios](https://www.coursera.org/account/accomplishments/certificate/7DQIP192BUXD).
+    - [Structures and Solutions](https://www.coursera.org/account/accomplishments/verify/T4SKYBPFN5CY) 
   - [Biochemistry: Biomolecules, Methods, and Mechanisms](https://learning.edx.org/course/course-v1:MITx+7.05x+1T2025/home). MITx 7.05x via edX
 
 - ### Physics
