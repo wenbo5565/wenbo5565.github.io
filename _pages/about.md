@@ -62,14 +62,14 @@ Since my research is interdisciplinary and my formal education is only in the "m
   
 - ### Biology
   - [Introduction to Biology - The Secret of Life](https://learning.edx.org/course/course-v1:MITx+7.00x+1T2025/home). MITx 7.00x via edX
-  - [Cell Biology]. MITx 7.06x via edX
+  - Cell Biology. MITx 7.06x via edX
     - [Transport and Signaling](https://courses.edx.org/certificates/e263210d938c401298c6eb812ea4deab?_gl=1*1pmhdg2*_gcl_au*MTAzNDA5MTkxMi4xNzQ1NTk4ODQ1*_ga*MjAwMzYyNzYwMy4xNzQ5NTA3NTQ4*_ga_D3KS4KMDT0*czE3NTAwMTgyNzYkbzI3JGcxJHQxNzUwMDE5MTk1JGo2MCRsMCRoMA..)
     - [Cytoskeleton and Cell Cycle](https://courses.edx.org/certificates/66ed337b078842ba964fe701b187879d)
     - [Cell-Cell Interactions](https://mitxonline.mit.edu/courses/course-v1:MITxT+7.06.3x/)   
   - Contemporary Biology. University of North Texas via Coursera
     
 - ### Chemistry
-  - [Introduction to Chemistry] Duke University via Coursera
+  - Introduction to Chemistry Duke University via Coursera
     - [Reactions and Ratios](https://www.coursera.org/account/accomplishments/certificate/7DQIP192BUXD).
     - [Structures and Solutions](https://www.coursera.org/account/accomplishments/certificate/T4SKYBPFN5CY) 
   - [Biochemistry: Biomolecules, Methods, and Mechanisms](https://learning.edx.org/course/course-v1:MITx+7.05x+1T2025/home). MITx 7.05x via edX
