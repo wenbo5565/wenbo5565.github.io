@@ -11,7 +11,7 @@ redirect_from:
 
 My research explores computational modeling and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
-In medical sciences, I am exploring how mathematical optimization can advance the diagnosis, treatment, and healthcare interventions for life-altering illness in neurology and immunology, including neuro-degenerative (e.g., Alzheimer's disease) and neuro-developmental disorders (e.g., Autism spectrum disorder/Asperger's), immune disorders (e.g., autoimmune diseases), and vestibular disorders (e.g., Mal de Débarquement Syndrome, MdDS).
+In medical sciences, I am exploring how mathematical optimization can enhance the understanding, diagnosis, treatment, and healthcare interventions for life-altering illness in neurology and immunology, including neuro-degenerative disorders (e.g., Alzheimer's disease), immune disorders (e.g., autoimmune diseases), and vestibular disorders (e.g., Mal de Débarquement Syndrome(MdDS)).
 
 In quantitative trading, my goal is to design computational models that empower retail and individual traders to make more informed investment decisions. This contrasts with the traditional emphasis on supporting institutional traders.
 
