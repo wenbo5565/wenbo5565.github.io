@@ -34,7 +34,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - [A distributionally robust area under curve maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters,**, 2020. \
    with Miguel Lejeune
 
-### Professional Articles
+### Other Professional Articles
 
 - [How Mathematical Optimization Helps to Improve Customer Experience and Fraud Defense for Consumer Banking](https://pubsonline.informs.org/do/10.1287/orms.2024.03.12/full/), **ORMS Today**, 2024. 
 
@@ -43,6 +43,25 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
  - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
 -->
 
+## Industry Experience <a id="industry"></a>
+
+### Full-Time
+- Risk Strats/Quant, Goldman Sachs (Remote from McLean, VA and Los Angeles, CA)
+- Principal Data Scientist, Capital One (McLean, VA)
+- Quantitative Analyst, Freddie Mac (McLean, VA)
+- Data Scientist, AvalonBay Communities (AVB) (Arlington, VA)
+- Data Analyst, Deloitte (New York, NY)
+
+### Internship
+- Audit Intern, PwC (Hong Kong)
+- Audit Intern, RSM U.S./McGladrey (Chicago, IL)
+
+## Teaching <a id="teaching"></a>
+
+- Tutorial:
+    - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
+      - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
+     
 ## Learning <a id="learning"></a>
 
 ### Formal Education
@@ -79,22 +98,5 @@ Since my research is interdisciplinary and my formal education is only in the "m
 
 
 
-## Teaching <a id="teaching"></a>
 
-- Tutorial:
-    - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
-      - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
-     
-## Industry Experience <a id="industry"></a>
-
-### Full-Time
-- Risk Strats/Quant, Goldman Sachs (Remote from McLean, VA and Los Angeles, CA)
-- Principal Data Scientist, Capital One (McLean, VA)
-- Quantitative Analyst, Freddie Mac (McLean, VA)
-- Data Scientist, AvalonBay Communities (AVB) (Arlington, VA)
-- Data Analyst, Deloitte (New York, NY)
-
-### Internship
-- Audit Intern, PwC (Hong Kong)
-- Audit Intern, RSM U.S./McGladrey (Chicago, IL)
 
