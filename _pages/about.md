@@ -46,7 +46,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ## Industry Experience <a id="industry"></a>
 
 ### Full-Time
-- Risk Strats/Quant, Goldman Sachs (Remote from McLean, VA and Los Angeles, CA)
+- Risk Strats/Quant, Goldman Sachs (Remote from Los Angeles, CA and McLean, VA)
 - Principal Data Scientist, Capital One (McLean, VA)
 - Quantitative Analyst, Freddie Mac (McLean, VA)
 - Data Scientist, AvalonBay Communities (AVB) (Arlington, VA)
