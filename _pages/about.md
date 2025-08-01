@@ -53,8 +53,8 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - Data Analyst, Deloitte (New York, NY)
 
 ### Internship
-- Audit Intern, PwC (Hong Kong)
-- Audit Intern, RSM U.S./McGladrey (Chicago, IL)
+- Audit Intern, PwC (Hong Kong) - Internship fully sponsored by the Chinese Institute of Certified Public Accountants (CICPA)
+- Audit Intern, RSM U.S./McGladrey (Chicago, IL) - Internship fully sponsored by the Chinese Institute of Certified Public Accountants (CICPA)
 
 ## Teaching <a id="teaching"></a>
 
