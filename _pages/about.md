@@ -9,7 +9,9 @@ redirect_from:
 
 ## About Me <a id="about"></a>
 
-My research explores computational optimization and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
+I am pursuing a PhD program Operations Research/Decision Sciences at the George Washington University School of Business, supervised by Professor Miguel Lejeune. In 2023 Fall, I spent a semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
+
+My current research explores computational optimization and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
 In medical sciences, I am exploring how mathematical optimization can enhance the understanding, diagnosis, treatment, and healthcare interventions for life-altering illness in neurology and immunology, including neuro-degenerative disorders (e.g., Alzheimer's disease), immune disorders (e.g., autoimmune diseases), and vestibular disorders (e.g., Mal de Débarquement Syndrome(MdDS)).
 
@@ -54,10 +56,8 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 
 ### Internship
 - Audit Intern, PwC (Hong Kong)
-  - Full-time internship fully financed by the Chinese Institute of Certified Public Accountants (CICPA), 2012 cohort
 - Audit Intern, RSM U.S./McGladrey (Chicago, IL)
-  - Full-time internship fully financed by the Chinese Institute of Certified Public Accountants (CICPA), 2011 cohort
-
+  
 ## Teaching <a id="teaching"></a>
 
 - Tutorial:
@@ -67,8 +67,8 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ## Learning <a id="learning"></a>
 
 ### Formal Education
-- Ph.D. TBD
-- Ph.D. (Dropout) Operations Research, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
+- Ph.D. (in progress) Operations Research/Decision Sciences at George Washington University School of Businesses
+- Ph.D. (attended for one semester) Operations Research, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
   - Withdrew after completing the first semester to return to D.C. for family reasons
 - M.S. Data Science - Operations Research, George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
