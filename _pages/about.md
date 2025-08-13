@@ -36,7 +36,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - [A distributionally robust area under curve maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters,**, 2020. \
    with Miguel Lejeune
 
-### Other Professional Articles
+### Non-peer-reviewed publications
 
 - [How Mathematical Optimization Helps to Improve Customer Experience and Fraud Defense for Consumer Banking](https://pubsonline.informs.org/do/10.1287/orms.2024.03.12/full/), **ORMS Today**, 2024. 
 
