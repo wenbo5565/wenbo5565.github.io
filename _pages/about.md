@@ -68,7 +68,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 
 ### Formal Education
 - Ph.D. (in progress) Operations Research/Decision Sciences at George Washington University School of Businesses
-- Ph.D. (attended for one semester) Operations Research, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
+- Ph.D. (dropout) Operations Research, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
   - Withdrew after completing the first semester to return to D.C. for family reasons
 - M.S. Data Science - Operations Research, George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
