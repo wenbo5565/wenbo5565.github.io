@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me <a id="about"></a>
 
-I am pursuing a PhD program Operations Research/Decision Sciences at the George Washington University School of Business, supervised by Professor Miguel Lejeune. In 2023 Fall, I spent a semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
+I am pursuing a PhD program Operations Research/Decision Sciences at the George Washington University School of Business, supervised by Miguel Lejeune. In 2023 Fall, I spent a semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
 
 My current research explores computational optimization and its applications in two seemingly unrelated yet personally fascinating fields: medical sciences and quantitative trading.
 
