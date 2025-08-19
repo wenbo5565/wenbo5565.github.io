@@ -26,10 +26,11 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ### Refereed Journals
 - [Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods](https://pubsonline.informs.org/doi/10.1287/opre.2022.0489), **Operations Research**, 2024. \
    with Miguel Lejeune
+  - GW Today [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
 
 - [Multi‐agent search for a moving and camouflaging target](https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.22160), **Naval Research Logistics**, 2024. \
-   with Miguel Lejeune and Johannes Royset 
-
+   with Miguel Lejeune and Johannes Royset
+    
 - [Profit-based unit commitment models with price-responsive decision-dependent uncertainty](https://www.sciencedirect.com/science/article/abs/pii/S0377221723009177), **European Journal of Operational Research**, 2024. \
    with Miguel Lejeune and Payman Dehghanian. 
 
