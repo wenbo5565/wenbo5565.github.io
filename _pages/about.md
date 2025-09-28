@@ -11,7 +11,7 @@ redirect_from:
 
 I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. In 2023 Fall, I studied for one semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
 
-My current research interest is at the intersection of mathematical optimization, mathematical biology and network science, with applications in two seemingly unrelated yet personally fascinating fields: medical sciences/network medicine and quantitative trading.
+My current research interest is at the intersection of mathematical optimization and network science, with applications in two seemingly unrelated yet personally fascinating fields: medical sciences/network medicine and quantitative trading.
 
 In medical sciences, I am exploring how mathematical optimization can enhance the understanding, diagnosis, treatment, and healthcare interventions for life-altering illness in neurology and immunology, including neuro-degenerative disorders (e.g., Alzheimer's disease), immune disorders (e.g., autoimmune diseases), and vestibular disorders (e.g., Mal de Débarquement Syndrome(MdDS)).
 
