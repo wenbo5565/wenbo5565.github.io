@@ -72,8 +72,9 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - Ph.D. (in progress) Operations Research/Decision Sciences at George Washington University School of Businesses
 - Ph.D. (dropout) Operations Research, Data Sciences and Operations Department at Marshall School of Business, University of Southern California (USC)
   - Withdrew after completing the first semester to return to D.C. for family reasons
-- M.S. Data Science - Operations Research (finished part-time), George Washington University
+- M.S. Data Science - Operations Research (finished part-time while working in industry), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
+- B.B.A. Accounting, Anhui University of Finance and Economics, China
 
 ### Online Learning
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
