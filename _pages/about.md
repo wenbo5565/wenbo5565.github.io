@@ -35,7 +35,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - [Profit-based unit commitment models with price-responsive decision-dependent uncertainty](https://www.sciencedirect.com/science/article/abs/pii/S0377221723009177), **European Journal of Operational Research**, 2024. \
    with Miguel Lejeune and Payman Dehghanian. 
 
-- [A distributionally robust area under curve maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters,**, 2020. \
+- [A distributionally robust area under curve (AUC) maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters,**, 2020. \
    with Miguel Lejeune
 
 ### Non-peer-reviewed publications
