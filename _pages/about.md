@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me <a id="about"></a>
 
-I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. Because of my research interests, I am also taking coursework within the PhD program in Integrated Biomedical Sciences at GW's School of Medicine. In 2023 Fall, I enrolled and studied for one semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
+I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. In 2023 Fall, I enrolled and studied for one semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
 
 My current research interest lies at the intersection of mathematical optimization and network science, with applications in two seemingly unrelated yet personally fascinating fields: medical sciences/network medicine and quantitative trading.
 
@@ -27,7 +27,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - [Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods](https://pubsonline.informs.org/doi/10.1287/opre.2022.0489), **Operations Research**, 2024. \
    with Miguel Lejeune
   - INFORMS - Transportation Science and Logistics (TSL) Best Paper Award - Winner (2025)
-  - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses)
+  <!-- - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses) -->
 
 - [Multi‐agent search for a moving and camouflaging target](https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.22160), **Naval Research Logistics**, 2024. \
    with Miguel Lejeune and Johannes Royset
