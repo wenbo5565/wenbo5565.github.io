@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me <a id="about"></a>
 
-I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. Because of my research interest, I am also taking coursework within the PhD Program in Integrated Biomedical Sciences at GW's School of Medicine. In 2023 Fall, I enrolled and studied for one semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
+I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. <!-- Because of my research interest, I am also taking coursework within the PhD Program in Integrated Biomedical Sciences at GW's School of Medicine--> In 2023 Fall, I enrolled and studied for one semester in the PhD program in Data Sciences and Operations (DSO) at Marshall School of Business, University of Southern California (USC) , before returning to D.C. for family reasons. 
 
 My current research interest lies at the intersection of mathematical optimization and network science, with applications in two seemingly unrelated yet personally fascinating fields: medical sciences/network medicine and quantitative trading.
 
@@ -35,7 +35,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - [Profit-based unit commitment models with price-responsive decision-dependent uncertainty](https://www.sciencedirect.com/science/article/abs/pii/S0377221723009177), **European Journal of Operational Research**, 2024. \
    with Miguel Lejeune and Payman Dehghanian. 
 
-- [A distributionally robust area under curve (AUC) maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters,**, 2020. \
+- [A distributionally robust area under curve (AUC) maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters**, 2020. \
    with Miguel Lejeune
 
 ### Non-peer-reviewed publications
