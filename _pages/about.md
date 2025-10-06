@@ -74,8 +74,6 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
   - Withdrew after completing the first semester to return to D.C. for family reasons
 - M.S. Data Science - Operations Research (finished part-time while working in industry), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
-- B.B.A. Accounting, Anhui University of Finance and Economics, China
-- High School Diploma, Hefei No.1 High School, China.
 
 ### Online Learning
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
