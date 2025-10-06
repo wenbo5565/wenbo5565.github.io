@@ -75,7 +75,6 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - M.S. Data Science - Operations Research (finished part-time while working in industry), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
 
-
 ### Online Learning
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
 
