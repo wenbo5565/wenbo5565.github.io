@@ -38,7 +38,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - [A distributionally robust area under curve (AUC) maximization model](https://www.sciencedirect.com/science/article/abs/pii/S0167637720300791), **Operations Research Letters**, 2020. \
    with Miguel Lejeune
 
-### Non-peer-reviewed publications
+### Professional publications
 
 - [How Mathematical Optimization Helps to Improve Customer Experience and Fraud Defense for Consumer Banking](https://pubsonline.informs.org/do/10.1287/orms.2024.03.12/full/), **ORMS Today**, 2024. 
 
@@ -86,9 +86,9 @@ Since my research is interdisciplinary and my formal education is only in the "m
 - ### Biology
   - [Introduction to Biology - The Secret of Life](https://courses.edx.org/certificates/581f0d9fa4244c3e858303d6b6067290?_gl=1*1bjllok*_gcl_aw*R0NMLjE3NTA2Mzg0NDMuQ2owS0NRancwOTdDQmhESUFSSXNBSjMtbnhlUV8xZXdERm0xSElqdHNCQXRFdUE2RmVlcTlsdElRNGNma1JnZ0FtZ2NjNkNUSEFaN3AzZ2FBbWxtRUFMd193Y0I.*_gcl_au*MTAzNDA5MTkxMi4xNzQ1NTk4ODQ1*_ga*MTUyMjU0NDU1MC4xNzUwODYwMTA1*_ga_D3KS4KMDT0*czE3NTA5NDY0MjQkbzIkZzEkdDE3NTA5NDY0MjckajU3JGwwJGgw). MITx 7.00x via edX
   - Cell Biology. MITx 7.06x via edX
-    - [Cell-Cell Interactions](https://mitxonline.mit.edu/certificate/51e13ace-63c8-4f95-8513-613f00383a5a/)   
     - [Transport and Signaling](https://courses.edx.org/certificates/e263210d938c401298c6eb812ea4deab?_gl=1*1pmhdg2*_gcl_au*MTAzNDA5MTkxMi4xNzQ1NTk4ODQ1*_ga*MjAwMzYyNzYwMy4xNzQ5NTA3NTQ4*_ga_D3KS4KMDT0*czE3NTAwMTgyNzYkbzI3JGcxJHQxNzUwMDE5MTk1JGo2MCRsMCRoMA..)
-    - [Cytoskeleton and Cell Cycle](https://courses.edx.org/certificates/66ed337b078842ba964fe701b187879d) 
+    - [Cytoskeleton and Cell Cycle](https://courses.edx.org/certificates/66ed337b078842ba964fe701b187879d)
+    - [Cell-Cell Interactions](https://mitxonline.mit.edu/certificate/51e13ace-63c8-4f95-8513-613f00383a5a/)
   - Contemporary Biology. University of North Texas via Coursera
     
 - ### Chemistry
