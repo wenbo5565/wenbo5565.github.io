@@ -56,7 +56,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - Data Scientist, AvalonBay Communities (NYSE: AVB) (Arlington, VA)
 - Data Analyst, Deloitte (New York, NY)
 
-### Internship
+### Internship (Undergraduate)
 - Audit Intern, PwC (Hong Kong)
 - Audit Intern, RSM U.S./McGladrey (Chicago, IL)
   
