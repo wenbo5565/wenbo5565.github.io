@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me <a id="about"></a>
 
-I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. Because of my research interest, I am also taking courses within the PhD Program in Integrated Biomedical Sciences at GW's School of Medicine. In the Fall of 2023, I enrolled in the PhD program in Data Sciences and Operations (DSO) at USC's Marshall School of Business, where I completed a semester of coursework under the brief supervision of Vishal Gupta before returning to industry in Washington, D.C., for family reasons.
+I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by Miguel Lejeune. Because of my research interest, I am also taking courses within the PhD Program in Integrated Biomedical Sciences at GW's School of Medicine. In the Fall of 2023, I enrolled in the PhD program in Data Sciences and Operations (DSO) at USC's Marshall School of Business, where I completed a semester of coursework under the brief supervision of Vishal Gupta before returning to Washington, D.C. and industry, for family reasons.
 
 My current research interest lies at the intersection of mathematical optimization and network science, with applications in two seemingly unrelated yet personally fascinating fields: medical sciences/network medicine and quantitative trading.
 
