@@ -63,7 +63,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 - Audit Intern, RSM U.S./McGladrey (Chicago, IL)
   
 ## Teaching <a id="teaching"></a>
-As a Lecturer:
+As a lecturer:
 - Tutorial:
     - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
       - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
