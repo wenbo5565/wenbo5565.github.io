@@ -68,7 +68,7 @@ As a lecturer:
     - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
       - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
 - Recitation/Help Session:
-  - MBAD 6224 (Full-Time MBA at GW) - Decision Making and Data Analysis
+  - MBAD 6224 (course for Full-Time MBA at GW) - Decision Making and Data Analysis
     
 ## Learning <a id="learning"></a>
 
