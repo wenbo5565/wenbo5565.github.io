@@ -61,6 +61,10 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ### Internship (Undergraduate)
 - Audit Intern, PwC (Hong Kong)
 - Audit Intern, RSM U.S./McGladrey (Chicago, IL)
+
+## Service <a id="service"></a>
+### Journal Reviewer
+  - Computer and Operations Research
   
 ## Teaching <a id="teaching"></a>
 As a lecturer:
@@ -71,7 +75,7 @@ As a lecturer:
       - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
 
     
-## Learning <a id="learning"></a>
+## Learning <a id="Education"></a>
 
 ### Formal Education
 - Ph.D. (in progress) Operations Research/Decision Sciences at George Washington University School of Businesses
@@ -80,6 +84,7 @@ As a lecturer:
 - M.S. Data Science - Operations Research (finished part-time while working in industry), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
 
+<!--
 ### Online Learning
 Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
 
@@ -103,7 +108,7 @@ Since my research is interdisciplinary and my formal education is only in the "m
   - [Biochemistry - Biomolecules, Methods, and Mechanisms](https://learning.edx.org/course/course-v1:MITx+7.05x+1T2025/home). MITx 7.05x via edX
 
 - ### Physics
-
+-->
 
 
 
