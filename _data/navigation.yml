@@ -14,10 +14,13 @@ main:
   - title: "Industry Experience"
     url: /#industry
 
+  - title: "Service"
+    url: /#service
+    
   - title: "Teaching"
     url: /#teaching    
   
-  - title: "Learning"
-    url: /#learning
+  - title: "Education"
+    url: /#Education
 
 
