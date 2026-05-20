@@ -75,7 +75,7 @@ As a lecturer:
       - [Slides](https://github.com/wenbo5565/wenbo5565.github.io/blob/master/_teaching/Intro.%20to%20Modeling%20with%20Gurobi%20Python%20Interface.pdf)
 
     
-## Learning <a id="Education"></a>
+## Education <a id="Education"></a>
 
 ### Formal Education
 - Ph.D. (in progress) Operations Research/Decision Sciences at George Washington University School of Businesses
