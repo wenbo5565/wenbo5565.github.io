@@ -64,7 +64,6 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 
 ## Service <a id="service"></a>
 ### Journal Reviewer
-  - Computers and Operations Research
   
 ## Teaching <a id="teaching"></a>
 As a lecturer:
