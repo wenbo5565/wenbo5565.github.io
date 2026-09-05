@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me <a id="about"></a>
 
-I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by [Miguel Lejeune](https://business.gwu.edu/miguel-lejeune). Because of my research interest, I am also taking courses within the PhD Program in Integrated Biomedical Sciences at GW's School of Medicine. In the Fall of 2023, I studied in the PhD program in Data Science and Operations at USC's Marshall School of Business, where I completed one semester of coursework under the brief supervision of [Vishal Gupta](https://faculty.marshall.usc.edu/Vishal-Gupta/aboutme.html) before returning to the D.C. area for family reasons.
+I am pursuing a PhD in Operations Research/Decision Sciences at the George Washington University School of Business, advised by [Miguel Lejeune](https://business.gwu.edu/miguel-lejeune). Because of my research interest, I am also taking PhD-level coursework at GW's School of Medicine and Milken Institute School of Public Health. In the Fall of 2023, I studied in the PhD program in Data Science and Operations at USC's Marshall School of Business, where I completed one semester of coursework under the brief supervision of [Vishal Gupta](https://faculty.marshall.usc.edu/Vishal-Gupta/aboutme.html) before returning to the D.C. area for family reasons.
 
 My current research interest lies at the intersection of mathematical optimization and network science, with applications in medical sciences/network medicine, algorithmic trading, and prediction markets. In medical sciences, I am exploring how mathematical optimization can enhance the understanding, diagnosis, treatment, and healthcare delivery for life-altering illness in neurology and immunology. In quantitative trading and prediction markets, my goal is to design computational models that empower retail and individual traders to make more informed investment decisions. 
 
@@ -24,8 +24,9 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ### Refereed Journals
 - [Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods](https://pubsonline.informs.org/doi/10.1287/opre.2022.0489), **Operations Research**, 2024. \
    with Miguel Lejeune
-  - [INFORMS - Transportation Science and Logistics (TSL) Society Best Paper Award](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Transportation-Science-and-Logistics-Section/Best-Paper-Award) - Winner (2025)
   - INFORMS - Telecommunications and Network Analytics Section Best Paper Award - Finalist (2026)
+  - [INFORMS - Transportation Science and Logistics (TSL) Society Best Paper Award](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Transportation-Science-and-Logistics-Section/Best-Paper-Award) - Winner (2025)
+ 
   <!-- - GW Today: [Drones Could Transform Emergency Response to Opioid Overdoses](https://gwtoday.gwu.edu/drones-could-transform-emergency-response-opioid-overdoses) -->
 
 - [Multi‐agent search for a moving and camouflaging target](https://onlinelibrary.wiley.com/doi/abs/10.1002/nav.22160), **Naval Research Logistics**, 2024. \
