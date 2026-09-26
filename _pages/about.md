@@ -63,6 +63,12 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ## Service <a id="service"></a>
 ### Journal Reviewer
 - Computers and Operations Research
+
+## Awards <a id="awards"></a>
+  - INFORMS - Telecommunications and Network Analytics Section Best Paper Award - Finalist (2026)
+  - [INFORMS - Transportation Science and Logistics (TSL) Society Best Paper Award](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Transportation-Science-and-Logistics-Section/Best-Paper-Award) - Winner (2025)
+  - Chinese Institutes of Certified Public Accountants (CICPA) - Fellowship for Undergraduate Overseas Internship Program (2011 and 2012).
+    - Including all accommodation and transportation expenses at PwC Hong Kong and RSM Chicago office.
   
 ## Teaching <a id="teaching"></a>
 As a lecturer:
@@ -82,31 +88,7 @@ As a lecturer:
 - M.S. Data Science - Operations Research (finished part-time while working in industry), George Washington University
 - M.S. Statistics, Rutgers University - New Brunswick
 
-<!--
-### Online Learning
-Since my research is interdisciplinary and my formal education is only in the "math" part, I have been studying "the other" part -- medical science, biology, chemistry, and physics -- via massive open online courses (MOOC)
 
-- ### Medical Sciences
-  - [Introductory Human Physiology](https://www.coursera.org/account/accomplishments/certificate/2NDJMJF6FNSO). Duke University via Coursera
-  - [Anatomy: Human Neuroanatomy](https://www.coursera.org/account/accomplishments/certificate/VUX9ONP8L94T). University of Michigan via Coursera
-  - [Fundamentals of Immunology Specialization](https://www.coursera.org/specializations/immunology). Rice University via Coursera
-  
-- ### Biology
-  - [Introduction to Biology - The Secret of Life](https://courses.edx.org/certificates/581f0d9fa4244c3e858303d6b6067290?_gl=1*1bjllok*_gcl_aw*R0NMLjE3NTA2Mzg0NDMuQ2owS0NRancwOTdDQmhESUFSSXNBSjMtbnhlUV8xZXdERm0xSElqdHNCQXRFdUE2RmVlcTlsdElRNGNma1JnZ0FtZ2NjNkNUSEFaN3AzZ2FBbWxtRUFMd193Y0I.*_gcl_au*MTAzNDA5MTkxMi4xNzQ1NTk4ODQ1*_ga*MTUyMjU0NDU1MC4xNzUwODYwMTA1*_ga_D3KS4KMDT0*czE3NTA5NDY0MjQkbzIkZzEkdDE3NTA5NDY0MjckajU3JGwwJGgw). MITx 7.00x via edX
-  - Cell Biology. MITx 7.06x via edX
-    - [Transport and Signaling](https://courses.edx.org/certificates/e263210d938c401298c6eb812ea4deab?_gl=1*1pmhdg2*_gcl_au*MTAzNDA5MTkxMi4xNzQ1NTk4ODQ1*_ga*MjAwMzYyNzYwMy4xNzQ5NTA3NTQ4*_ga_D3KS4KMDT0*czE3NTAwMTgyNzYkbzI3JGcxJHQxNzUwMDE5MTk1JGo2MCRsMCRoMA..)
-    - [Cytoskeleton and Cell Cycle](https://courses.edx.org/certificates/66ed337b078842ba964fe701b187879d)
-    - [Cell-Cell Interactions](https://mitxonline.mit.edu/certificate/51e13ace-63c8-4f95-8513-613f00383a5a/)
-  - Contemporary Biology. University of North Texas via Coursera
-    
-- ### Chemistry
-  - Introduction to Chemistry Duke University via Coursera
-    - [Reactions and Ratios](https://www.coursera.org/account/accomplishments/certificate/7DQIP192BUXD).
-    - [Structures and Solutions](https://www.coursera.org/account/accomplishments/certificate/T4SKYBPFN5CY) 
-  - [Biochemistry - Biomolecules, Methods, and Mechanisms](https://learning.edx.org/course/course-v1:MITx+7.05x+1T2025/home). MITx 7.05x via edX
-
-- ### Physics
--->
 
 
 
