@@ -18,8 +18,11 @@ main:
     url: /#service
     
   - title: "Teaching"
-    url: /#teaching    
-  
+    url: /#teaching
+
+  - title: "Awards"
+    url: /#awards
+    
   - title: "Education"
     url: /#Education
 
