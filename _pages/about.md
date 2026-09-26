@@ -67,8 +67,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ## Awards <a id="awards"></a>
   - INFORMS - Telecommunications and Network Analytics Section Best Paper Award - Finalist (2026)
   - [INFORMS - Transportation Science and Logistics (TSL) Society Best Paper Award](https://www.informs.org/Recognizing-Excellence/Community-Prizes/Transportation-Science-and-Logistics-Section/Best-Paper-Award) - Winner (2025)
-  - Chinese Institutes of Certified Public Accountants (CICPA) - Fellowship for Undergraduate Overseas Internship Program (2011 and 2012)
-      - Including all accommodation and transportation expenses of 3 months for internships at PwC Hong Kong and RSM Chicago office.
+  - Chinese Institutes of Certified Public Accountants (CICPA) - Fellowship for Undergraduate Overseas Internship Program (2011 and 2012) - including all accommodation and transportation expenses of 3 months for internships at PwC Hong Kong and RSM Chicago office.
   
 ## Teaching <a id="teaching"></a>
 As a lecturer:
