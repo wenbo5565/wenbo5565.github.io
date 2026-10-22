@@ -25,6 +25,15 @@
   .page__inner-wrap {
     @include full();
 
+    // end the text where the masthead nav links end (see _navigation.scss)
+    @include breakpoint($large) {
+      max-width: 609px;
+    }
+
+    @include breakpoint($x-large) {
+      max-width: 868px;
+    }
+
     .page__content,
     .page__meta,
     .page__share {
