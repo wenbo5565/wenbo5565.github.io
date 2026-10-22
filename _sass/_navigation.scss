@@ -479,7 +479,7 @@ $masthead-title-width: unquote("min(175px, 15.2542vw)");
 
         a {
           margin: 0;
-          font-size: $type-size-4;
+          font-size: 1.4em;
         }
       }
     }
@@ -488,7 +488,7 @@ $masthead-title-width: unquote("min(175px, 15.2542vw)");
   @include breakpoint($x-large) {
     .visible-links li:not(:first-child) a {
       margin: 0 1rem;
-      font-size: 1em;
+      font-size: 1.1em;
     }
 
     .visible-links li:nth-child(2) a {

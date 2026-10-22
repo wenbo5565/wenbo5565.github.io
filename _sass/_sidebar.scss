@@ -127,6 +127,10 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
+
+  @include breakpoint($large) {
+    margin-bottom: 9px; // same gap as between the links below
+  }
 }
 
 .sidebar .author__desktop {

@@ -42,6 +42,16 @@
   }
 }
 
+// pages with an empty title (e.g. the home page): start the content level
+// with the top of the sidebar avatar
+.page__title:empty {
+  display: none;
+}
+
+.page__inner-wrap header:has(.page__title:empty) + .page__content > :first-child {
+  margin-top: 0;
+}
+
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-4;
