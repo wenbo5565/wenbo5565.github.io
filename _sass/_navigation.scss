@@ -433,34 +433,70 @@
     }
   }
 }
+
 /*
-   Masthead alignment: center the site title over the sidebar avatar and
-   start the first nav link at the left edge of the page content
+   Masthead alignment: start the nav links at the left edge of the page
+   content and center the site title over the sidebar avatar
    ========================================================================== */
 
-// avatar is max 175px, or the fixed sidebar's span(2 of 12) of the viewport
-$masthead-title-width: unquote("min(175px, 15.2542vw)");
 // left edge of .page content: span(2 of 12) + gutter + prefix(0.5 of 12)
 $masthead-content-offset: 21.1864%;
+// the same offset as a share of the (narrower) nav: 21.1864 / (100 - 21.1864)
+$masthead-title-offset: -26.882%;
+// avatar is max 175px, or the fixed sidebar's span(2 of 12) of the viewport
+$masthead-title-width: unquote("min(175px, 15.2542vw)");
 
-.greedy-nav .visible-links {
+.masthead__menu #site-nav {
   @include breakpoint($large) {
-    display: flex;
-    align-items: center;
+    // shrinking the nav (not padding the list) keeps greedy-nav's fit check right
+    margin-left: $masthead-content-offset;
 
-    li:first-child {
-      flex: none;
-      width: $masthead-title-width;
-      padding-right: 0;
-      text-align: center;
-
+    .visible-links li {
       a {
-        margin: 0;
+        margin: 0 0.35rem;
+        font-size: 0.9em;
+      }
+
+      &:nth-child(2) a {
+        margin-left: 0;
+      }
+
+      &:last-child a {
+        margin-right: 0;
+      }
+
+      // taken out of the list flow so greedy-nav only measures the links
+      &:first-child {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: $masthead-title-offset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $masthead-title-width;
+        padding-right: 0;
+
+        a {
+          margin: 0;
+          font-size: $type-size-4;
+        }
       }
     }
+  }
 
-    li:nth-child(2) {
-      margin-left: calc(#{$masthead-content-offset} - #{$masthead-title-width} - 1rem);
+  @include breakpoint($x-large) {
+    .visible-links li:not(:first-child) a {
+      margin: 0 1rem;
+      font-size: 1em;
+    }
+
+    .visible-links li:nth-child(2) a {
+      margin-left: 0;
+    }
+
+    .visible-links li:last-child a {
+      margin-right: 0;
     }
   }
 }

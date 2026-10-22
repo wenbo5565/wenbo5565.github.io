@@ -112,6 +112,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    margin-top: 1.5em;
   }
 }
 
@@ -241,6 +242,11 @@
 
   li {
     white-space: nowrap;
+
+    @include breakpoint($large) {
+      font-size: 1rem; // match the main text
+      white-space: normal;
+    }
   }
 
   a {
