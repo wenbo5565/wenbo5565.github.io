@@ -433,3 +433,34 @@
     }
   }
 }
+/*
+   Masthead alignment: center the site title over the sidebar avatar and
+   start the first nav link at the left edge of the page content
+   ========================================================================== */
+
+// avatar is max 175px, or the fixed sidebar's span(2 of 12) of the viewport
+$masthead-title-width: unquote("min(175px, 15.2542vw)");
+// left edge of .page content: span(2 of 12) + gutter + prefix(0.5 of 12)
+$masthead-content-offset: 21.1864%;
+
+.greedy-nav .visible-links {
+  @include breakpoint($large) {
+    display: flex;
+    align-items: center;
+
+    li:first-child {
+      flex: none;
+      width: $masthead-title-width;
+      padding-right: 0;
+      text-align: center;
+
+      a {
+        margin: 0;
+      }
+    }
+
+    li:nth-child(2) {
+      margin-left: calc(#{$masthead-content-offset} - #{$masthead-title-width} - 1rem);
+    }
+  }
+}
