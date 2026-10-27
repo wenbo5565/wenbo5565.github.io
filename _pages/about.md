@@ -72,6 +72,7 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
 ## Teaching <a id="teaching"></a>
 As a lecturer:
 - Recitation/Help Session:
+  - MBAD 6224 (course for Full-Time and Part-Time MBA at GW) - Decision Making and Data Analysis, Fall 2026
   - MBAD 6224 (course for Full-Time MBA at GW) - Decision Making and Data Analysis, Fall 2025
 - Tutorial:
     - Introduction to Modeling with Gurobi Python Interface, 2022, session for PhD Students in the Decision Sciences Dept. and Smart Grid Lab at GW
