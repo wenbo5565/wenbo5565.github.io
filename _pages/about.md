@@ -21,6 +21,8 @@ Outside of work, I enjoy playing and watching sports — particularly tennis, sw
    
 ## Publications <a id="publications"></a>
 
+<p style="font-size: 0.9em;"><em>Authors are listed in alphabetical order by convention in our field (operations research) unless one author made a substantially larger contribution.</em></p>
+
 ### Refereed Journals
 - [Drone-Delivery Network for Opioid Overdose: Nonlinear Integer Queueing-Optimization Models and Methods](https://pubsonline.informs.org/doi/10.1287/opre.2022.0489), **Operations Research**, 2024. \
    with Miguel Lejeune
